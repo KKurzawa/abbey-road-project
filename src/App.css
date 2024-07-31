@@ -1,0 +1,24 @@
+*{
+  /* css reset */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+
+  /* global properties */
+  background-color: var(--COLOR-FIVE);
+
+  /* css variables */
+
+  /* fonts */
+  --FONT-ONE: "Playfair Display", serif;
+
+  /* colors */
+  --COLOR-ONE: #131415;
+  --COLOR-TWO: #A9A090;
+  --COLOR-THREE: #655E54;
+  --COLOR-FOUR: #716554;
+  --COLOR-FIVE: #9ad8fd;
+  --COLOR-SIX: #3b6788;
+  --COLOR-SEVEN: #d5d1cc;
+}

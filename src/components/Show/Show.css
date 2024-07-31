@@ -1,0 +1,39 @@
+.single-show-main{
+    position: relative;
+}
+
+.single-show-main::before{
+    content: '';
+    position: absolute;
+    background-image: url('/AbbeyRoadBg.png');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    z-index: 0;
+    opacity: .5;
+}
+
+.single-show{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 10px;
+    position: relative;
+}
+
+.single-show,
+.date-time,
+.date,
+.time,
+.tckt-btn{
+    font-family: var(--FONT-ONE);
+    color: var(--COLOR-SEVEN);
+    background-color: var(--COLOR-ONE);
+    font-size: 2rem;
+
+}

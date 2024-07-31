@@ -1,0 +1,43 @@
+.contact-header{
+    background-color: var(--COLOR-ONE);
+}
+
+.contact-header-letter{
+    background-color: var(--COLOR-ONE);
+    font-family: var(--FONT-ONE);
+    font-size: 3rem;
+    height: 3.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--COLOR-SEVEN);
+    padding-bottom: 7px;
+}
+
+.contact-form{
+    position: relative;
+}
+
+.contact-form::before{
+    content: '';
+    position: absolute;
+    background-image: url('/AbbeyRoadBg.png');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    z-index: 0;
+    opacity: .5;
+}
+
+.name,
+.email,
+.subject,
+.message,
+.submit-btn{
+    background-color: var(--COLOR-ONE);
+    color: var(--COLOR-SEVEN);
+    position: relative;
+    font-family: var(--FONT-ONE);
+}

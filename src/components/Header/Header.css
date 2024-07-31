@@ -1,0 +1,39 @@
+.header-main{
+    position: relative;
+    z-index: 1;
+}
+.header-main::before{
+    /* background-color: var(--COLOR-TWO); */
+    content: '';
+    position: absolute;
+    background-image: url('/Bricks.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 0;
+    opacity: .75;
+}
+
+.title,
+.space{
+    background-color: var(--COLOR-ONE);
+    font-family: var(--FONT-ONE);
+    font-size: 5rem;
+    height: 6rem;
+    width: 4rem;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    line-height: normal;
+    position: relative;
+}
+
+.title{
+    color: var(--COLOR-SEVEN);
+}
+
+.space{
+    color: transparent;
+}

@@ -1,0 +1,98 @@
+.band-member-main{
+    position: relative;
+}
+
+.band-member-main::before{
+    content: '';
+    position: absolute;
+    background-image: url('/AbbeyRoadBg.png');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    z-index: 0;
+    opacity: .5;
+}
+
+.michael-container,
+.doug-container,
+.dave-container,
+.kris-container,
+.steve-container{
+    padding-top: 3rem;
+}
+
+.member-pic{
+    width: 75%;
+    height: auto;
+    border: solid 10px var(--COLOR-ONE);
+    border-radius: 5%;
+    justify-self: center;
+    filter: grayscale(.75) brightness(1.35);
+}
+
+.band-member-name{
+    position: relative;
+    background-color: transparent;
+}
+
+.michael-text,
+.dave-text,
+.steve-text{
+    justify-self: center;
+    margin-left: 5rem;
+    margin-right: 7rem;
+    position: relative;
+    background-color: transparent;
+}
+
+.doug-text,
+.kris-text{
+    justify-self: center;
+    margin-left: 7rem;
+    margin-right: 5rem; 
+    position: relative;
+    background-color: transparent;
+}
+
+.band-member-letter,
+.band-member-space{
+    background-color: var(--COLOR-ONE);
+    font-family: var(--FONT-ONE);
+    font-size: 3rem;
+    height: 3.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 7px;
+}
+
+.band-member-letter{
+    color: var(--COLOR-SEVEN);
+}
+
+.band-member-space{
+    color: transparent;
+}
+
+.member-bio{
+    font-family: var(--FONT-ONE);
+    font-size: 1.45rem;
+    line-height: normal;
+    background-color: var(--COLOR-ONE);
+    color: var(--COLOR-SEVEN);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.member-icons{
+    font-size: 3rem;
+    background-color: transparent;
+} 
+
+.member-icon{
+    background-color: transparent;
+}
