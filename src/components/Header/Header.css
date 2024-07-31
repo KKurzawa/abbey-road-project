@@ -37,3 +37,17 @@
 .space{
     color: transparent;
 }
+
+@media (max-width: 480px) {
+
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 770px) {
+    .title,
+    .space{
+        font-size: 4rem;
+        height: 5rem;
+        width: 3rem;
+    }
+}

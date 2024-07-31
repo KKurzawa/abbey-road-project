@@ -96,3 +96,34 @@
 .member-icon{
     background-color: transparent;
 }
+
+@media (max-width: 480px) {
+
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 770px) {
+    .band-member-letter,
+    .band-member-space{
+        font-size: 1.5rem;
+        height: 1.8rem;
+        padding-bottom: 3px;
+    }
+
+    .member-bio{
+        font-size: 1rem;
+    }
+
+    .michael-text,
+    .dave-text,
+    .steve-text{
+        margin-left: 0;
+        margin-right: 2rem;
+    }
+
+    .doug-text,
+    .kris-text{
+        margin-left: 2rem;
+        margin-right: 0;
+    }
+}

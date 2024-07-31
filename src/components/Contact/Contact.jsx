@@ -56,25 +56,25 @@ const Contact = () => {
             </header>
             <form onSubmit={handleSubmit} className='contact-form flex flex-col items-center w-full h-auto'>
                 <article className='flex flex-col items-center w-full mb-2'>
-                    <input className='name w-5/6 md:w-1/2 px-3 py-1 mb-1 mt-10 text-3xl rounded-xl'
+                    <input className='name w-5/6 md:w-3/4 lg:w-1/2 px-3 py-1 mb-1 mt-10 text-3xl rounded-xl'
                         type='text'
                         placeholder='Your Name'
                         value={name}
                         onChange={(e) => setName(e.target.value)}
                     />
-                    <input className='email w-5/6 md:w-1/2 px-3 py-1 my-1 text-3xl rounded-xl'
+                    <input className='email w-5/6 md:w-3/4 lg:w-1/2 px-3 py-1 my-1 text-3xl rounded-xl'
                         type='text'
                         placeholder='Your Email'
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
                     />
-                    <input className='subject w-5/6 md:w-1/2 px-3 py-1 my-1 text-3xl rounded-xl'
+                    <input className='subject w-5/6 md:w-3/4 lg:w-1/2 px-3 py-1 my-1 text-3xl rounded-xl'
                         type='text'
                         placeholder='Your Subject'
                         value={subject}
                         onChange={(e) => setSubject(e.target.value)}
                     />
-                    <textarea className='message w-5/6 md:w-1/2 px-3 py-1 my-1 text-3xl rounded-xl'
+                    <textarea className='message w-5/6 md:w-3/4 lg:w-1/2 px-3 py-1 my-1 text-3xl rounded-xl'
                         type='text'
                         rows='5'
                         cols='10'

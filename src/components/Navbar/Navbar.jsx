@@ -2,7 +2,7 @@ import './Navbar.css'
 
 const Navbar = () => {
     return (
-        <nav className='nav-main flex justify-center gap-20 pb-3'>
+        <nav className='nav-main flex justify-center md:gap-10 lg:gap-20 pb-3'>
             <a href='#Shows' className='nav-link flex gap-1'>
                 <h2 className='nav-link-letter'>S</h2>
                 <h2 className='nav-link-letter'>H</h2>

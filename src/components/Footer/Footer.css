@@ -1,0 +1,19 @@
+.footer{
+    background-color: var(--COLOR-ONE);
+}
+
+.footer-icons,
+.footer-icon{
+    color:var(--COLOR-SEVEN);
+    background-color: var(--COLOR-ONE);
+}
+
+.mailto,
+.phone,
+.copyright,
+.dev-link,
+.footer-text-container{
+    background-color: var(--COLOR-ONE);
+    color: var(--COLOR-SEVEN);
+    font-family: var(--FONT-ONE);
+}
