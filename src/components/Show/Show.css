@@ -35,5 +35,23 @@
     color: var(--COLOR-SEVEN);
     background-color: var(--COLOR-ONE);
     font-size: 2rem;
+}
 
+@media (max-width: 480px) {
+    .single-show{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        padding-left: 1rem;
+        padding-right: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .single-show,
+    .date-time,
+    .date,
+    .time,
+    .tckt-btn{
+        font-size: 1.25rem;
+    }
 }

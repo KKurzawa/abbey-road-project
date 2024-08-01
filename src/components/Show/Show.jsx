@@ -18,7 +18,7 @@ const Show = () => {
         <main className='single-show-main w-full h-auto flex flex-col items-center'>
             {showList.map((item) => (
                 <ol key={item.index} className='single-show flex flex-col items-center w-fit'>
-                    <article className='date-time flex flex-row gap-1'>
+                    <article className='date-time flex flex-row gap-2'>
                         <li className='date'>{item.date}</li>
                         <li className='time'>{item.time}</li>
                     </article>

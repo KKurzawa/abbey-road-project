@@ -1,3 +1,66 @@
+/* small */
+.mobile-member-main{
+    position: relative;
+    z-index: 1;
+}
+
+.mobile-member-main::before{
+    content: '';
+    position: absolute;
+    background-image: url('/AbbeyRoadBg.png');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    z-index: 0;
+    opacity: .5;
+}
+
+.mobile-band-member-letter,
+.mobile-band-member-space{
+    background-color: var(--COLOR-ONE);
+    font-family: var(--FONT-ONE);
+    font-size: 1.5rem;
+    height: 1.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 1px;
+    color: var(--COLOR-SEVEN);
+    position: relative;
+}
+
+.mobile-member-pic{
+    width: 85%;
+    height: auto;
+    border: solid 10px var(--COLOR-ONE);
+    border-radius: 5%;
+    justify-self: center;
+    filter: grayscale(.75) brightness(1.35);
+}
+
+.mobile-member-icons,
+.mobile-member-icon{
+    position: relative;
+    background-color: transparent;
+    font-size: 1.5rem;
+}
+
+.mobile-member-bio{
+    font-family: var(--FONT-ONE);
+    font-size: .65rem;
+    line-height: normal;
+    background-color: var(--COLOR-ONE);
+    color: var(--COLOR-SEVEN);
+    padding: 1rem;
+    border-radius: 10px;
+    position: relative;
+}
+
+/* medium and large */
 .band-member-main{
     position: relative;
 }
@@ -95,10 +158,6 @@
 
 .member-icon{
     background-color: transparent;
-}
-
-@media (max-width: 480px) {
-
 }
 
 /* Media Query for low resolution  Tablets, Ipads */

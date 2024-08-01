@@ -12,7 +12,7 @@ const Footer = () => {
                 <button onClick={() => setTimeout(() => window.open('https://www.instagram.com/k_kurzawa/', '_blank'), 500)}><FaInstagramSquare className='footer-icon' /></button>
                 <button onClick={() => setTimeout(() => window.open('https://www.youtube.com/channel/UCosE-h5XuXSkR4dG_hBaCUg', '_blank'), 500)}><IoLogoYoutube className='footer-icon' /></button>
             </ul>
-            <article className='footer-text-container flex flex-col justify-center items-center mb-5'>
+            <article className='footer-text-container flex flex-col justify-center items-center mb-5 text-xs md:text-xl'>
                 <a href='mailto:kurzawa1@yahoo.com' className='mailto py-[.1rem]'>Email Us</a>
                 <a href='tel:12485682806' className='phone py-[.1rem]'>Call Us</a>
                 <p className='copyright py-[.1rem]'>Copyright &copy; {today.getFullYear()} The Abbey Road Project - All Rights Reserved</p>
