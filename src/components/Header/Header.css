@@ -38,6 +38,11 @@
     color: transparent;
 }
 
+.hamburger{
+    position: absolute;
+    /* right:5px */
+}
+
 @media (max-width: 480px) {
     .title,
     .space{

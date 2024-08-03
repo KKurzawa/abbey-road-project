@@ -9,6 +9,7 @@ const Header = () => {
                     <h2 className='title'>T</h2>
                     <h2 className='title'>H</h2>
                     <h2 className='title'>E</h2>
+                    {/* <h2 className='hamburger md:hidden'>Ham</h2> */}
                 </article>
                 <article className=' md:hidden flex h-auto justify-center items-center gap-1 my-2'>
                     <h2 className='title'>A</h2>

@@ -4,6 +4,8 @@
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+  width: 100%;
+  height: auto;
 
   /* global properties */
   background-color: var(--COLOR-FIVE);
@@ -21,4 +23,5 @@
   --COLOR-FIVE: #9ad8fd;
   --COLOR-SIX: #3b6788;
   --COLOR-SEVEN: #d5d1cc;
+  --COLOR-EIGHT: #131415c2;
 }

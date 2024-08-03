@@ -6,6 +6,7 @@
 .footer-icon{
     color:var(--COLOR-SEVEN);
     background-color: var(--COLOR-ONE);
+    transition: all .5s linear;
 }
 
 .mailto,
@@ -16,4 +17,12 @@
     background-color: var(--COLOR-ONE);
     color: var(--COLOR-SEVEN);
     font-family: var(--FONT-ONE);
+    transition: all .5s linear;
+}
+
+.mailto:hover,
+.phone:hover,
+.dev-link:hover,
+.footer-icon:hover{
+    color: var(--COLOR-FIVE);
 }

@@ -46,13 +46,7 @@ const Contact = () => {
     return (
         <main id='Contact' className='contact-main'>
             <header className='contact-header flex flex-row justify-center items-center w-full py-3'>
-                <h2 className='contact-header-letter'>C</h2>
-                <h2 className='contact-header-letter'>O</h2>
-                <h2 className='contact-header-letter'>N</h2>
-                <h2 className='contact-header-letter'>T</h2>
-                <h2 className='contact-header-letter'>A</h2>
-                <h2 className='contact-header-letter'>C</h2>
-                <h2 className='contact-header-letter'>T</h2>
+                <h2 className='contact-header-letter'>CONTACT</h2>
             </header>
             <form onSubmit={handleSubmit} className='contact-form flex flex-col items-center w-full h-auto'>
                 <article className='flex flex-col items-center w-full mb-2'>

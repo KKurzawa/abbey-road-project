@@ -40,4 +40,5 @@
     color: var(--COLOR-SEVEN);
     position: relative;
     font-family: var(--FONT-ONE);
+    outline: none;
 }

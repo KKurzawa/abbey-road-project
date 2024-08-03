@@ -30,11 +30,20 @@
 .date-time,
 .date,
 .time,
+.venue,
+.city,
 .tckt-btn{
     font-family: var(--FONT-ONE);
     color: var(--COLOR-SEVEN);
     background-color: var(--COLOR-ONE);
     font-size: 2rem;
+    transition: all .5s linear;
+}
+
+.venue:hover,
+.city:hover,
+.tckt-btn:hover{
+    color: var(--COLOR-FIVE);
 }
 
 @media (max-width: 480px) {
@@ -51,7 +60,9 @@
     .date-time,
     .date,
     .time,
-    .tckt-btn{
+    .tckt-btn,
+    .city,
+    .venue{
         font-size: 1.25rem;
     }
 }
