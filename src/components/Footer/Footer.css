@@ -4,6 +4,7 @@
 
 .footer-icons,
 .footer-icon{
+    width: fit-content;
     color:var(--COLOR-SEVEN);
     background-color: var(--COLOR-ONE);
     transition: all .5s linear;

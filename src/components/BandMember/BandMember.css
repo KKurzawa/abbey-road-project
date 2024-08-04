@@ -21,8 +21,8 @@
 .mobile-band-member-space{
     background-color: var(--COLOR-ONE);
     font-family: var(--FONT-ONE);
-    font-size: 1.5rem;
-    height: 1.75rem;
+    font-size: 1.25rem;
+    height: 1.3rem;
     width: fit-content;
     display: flex;
     align-items: center;
@@ -34,8 +34,21 @@
     position: relative;
 }
 
+.mobile-band-member-space{
+    color: transparent;
+}
+
 .mobile-member-pic{
-    width: 85%;
+    width:85%;
+    height: auto;
+    border: solid 10px var(--COLOR-ONE);
+    border-radius: 5%;
+    justify-self: center;
+    filter: grayscale(.75) brightness(1.35);
+}
+
+.doug-mobile-member-pic{
+    width: 90%;
     height: auto;
     border: solid 10px var(--COLOR-ONE);
     border-radius: 5%;
@@ -49,6 +62,7 @@
     background-color: transparent;
     font-size: 1.5rem;
     transition: all .5s linear;
+    width: fit-content;
 }
 
 .mobile-member-icon:hover{
@@ -64,6 +78,7 @@
     padding: 1rem;
     border-radius: 10px;
     position: relative;
+    width: 11.5rem;
 }
 
 /* medium and large */
@@ -159,7 +174,6 @@
 }
 
 .member-icons{
-    /* font-size: 1rem; */
     background-color: transparent;
 } 
 
@@ -202,5 +216,9 @@
     .kris-text{
         margin-left: 2rem;
         margin-right: 0;
+    }
+
+    .member-icon{
+        width: 3rem;
     }
 }
