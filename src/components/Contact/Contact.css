@@ -41,4 +41,15 @@
     position: relative;
     font-family: var(--FONT-ONE);
     outline: none;
+    border: solid 2px var(--COLOR-SEVEN)
+}
+
+.submit-btn{
+    transition: all .5s linear;
+}
+
+.submit-btn:hover{
+    color: var(--COLOR-ONE);
+    background-color: var(--COLOR-FIVE);
+    border: solid 2px var(--COLOR-ONE);
 }

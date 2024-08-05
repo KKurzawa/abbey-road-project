@@ -78,7 +78,8 @@
     padding: 1rem;
     border-radius: 10px;
     position: relative;
-    width: 11.5rem;
+    width: 90%;
+    height: auto;
 }
 
 /* medium and large */

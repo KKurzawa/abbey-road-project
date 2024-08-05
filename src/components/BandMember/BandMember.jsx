@@ -29,10 +29,12 @@ const BandMember = () => {
                     <h2 className='mobile-band-member-letter'>G</h2>
                 </article>
                 <article className='mobile-michael-container grid grid-cols-2'>
-                    <section className='flex flex-col gap-2 ml-3'>
+                    <section className='flex flex-col items-center'>
                         <img src={Michael} alt='Michael King' className='mobile-member-pic' />
                     </section>
-                    <p className='mobile-member-bio mr-4'>Nunc posuere leo eu dui consequat, ut aliquet urna condimentum. Aenean posuere ullamcorper orci, ac consectetur lorem aliquet in. Suspendisse sit amet odio varius, gravida dolor vel, euismod mauris. Donec eu massa feugiat, hendrerit tellus euismod, aliquam libero. Mauris lobortis, urna et suscipit tempus, turpis tellus fermentum justo, a iaculis nisl leo et orci.</p>
+                    <section className='flex flex-col items-center'>
+                        <p className='mobile-member-bio'>Nunc posuere leo eu dui consequat. Aenean posuere ullamcorper orci, ac consectetur lorem aliquet in. Suspendisse sit amet odio varius, gravida dolor vel, euismod mauris. Donec eu massa feugiat, hendrerit tellus euismod, aliquam libero. Mauris lobortis, urna et suscipit tempus, turpis tellus fermentum justo, a iaculis nisl leo et orci.</p>
+                    </section>
                 </article>
                 <article className='mobile-member-icons flex justify-center pt-2 pb-5 gap-1 w-full'>
                     <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
@@ -51,7 +53,7 @@ const BandMember = () => {
                         <FaSpotify className='mobile-member-icon' />
                     </button>
                 </article>
-                <article className='mobile-band-member-first-name flex justify-center gap-[.1rem]'>
+                <article className='mobile-band-member-first-name flex justify-center gap-[.1rem] pb-2'>
                     <h2 className='mobile-band-member-letter'>D</h2>
                     <h2 className='mobile-band-member-letter'>O</h2>
                     <h2 className='mobile-band-member-letter'>U</h2>
@@ -63,12 +65,12 @@ const BandMember = () => {
                     <h2 className='mobile-band-member-letter'>W</h2>
                     <h2 className='mobile-band-member-letter'>N</h2>
                 </article>
-                <article className='mobile-doug-container grid grid-cols-2 py-5 gap-4'>
-                    <p className='mobile-member-bio ml-3'>Nunc posuere leo eu dui consequat, ut aliquet urna condimentum. Aenean posuere ullamcorper orci, ac consectetur lorem aliquet in. Suspendisse sit amet odio varius, gravida dolor vel, euismod mauris. Donec eu massa feugiat, hendrerit tellus euismod, aliquam libero. Mauris lobortis, urna et suscipit tempus, turpis tellus fermentum justo, a iaculis nisl leo et orci.</p>
-                    <section className='pl-3'>
-                        <section className='mobile-band-member-left flex flex-col gap-2'>
-                            <img src={Doug} alt='Doug Brown' className='doug-mobile-member-pic' />
-                        </section>
+                <article className='mobile-member-container grid grid-cols-2'>
+                    <section className='flex justify-center'>
+                        <p className='mobile-member-bio'>Nunc posuere leo eu dui consequat. Aenean posuere ullamcorper orci, ac consectetur lorem aliquet in. Suspendisse sit amet odio varius, gravida dolor vel, euismod mauris. Donec eu massa feugiat, hendrerit tellus euismod, aliquam libero. Mauris lobortis, urna et suscipit tempus, turpis tellus fermentum justo, a iaculis nisl leo et orci.</p>
+                    </section>
+                    <section className='flex justify-center'>
+                        <img src={Doug} alt='Doug Brown' className='mobile-member-pic' />
                     </section>
                 </article>
                 <article className='mobile-member-icons flex justify-center pt-2 pb-5 gap-1 w-full'>
@@ -88,7 +90,7 @@ const BandMember = () => {
                         <FaSpotify className='mobile-member-icon' />
                     </button>
                 </article>
-                <article className='mobile-band-member-name flex justify-center gap-[.1rem] pt-5 pb-2'>
+                <article className='mobile-band-member-name flex justify-center gap-[.1rem] pb-2'>
                     <h2 className='mobile-band-member-letter'>D</h2>
                     <h2 className='mobile-band-member-letter'>A</h2>
                     <h2 className='mobile-band-member-letter'>V</h2>
@@ -107,13 +109,93 @@ const BandMember = () => {
                     <h2 className='mobile-band-member-letter'>O</h2>
                     <h2 className='mobile-band-member-letter'>N</h2>
                 </article>
-                <article className='mobile-dave-container grid grid-cols-2 pb-5'>
-                    <section className='flex flex-col gap-2 ml-3'>
-                        <img src={Dave} alt='Dave King' className='mobile-member-pic' />
+                <article className='mobile-dave-container grid grid-cols-2 justify-center'>
+                    <section className='flex flex-col items-center'>
+                        <img src={Dave} alt='Dave Henderickson' className='mobile-member-pic' />
                     </section>
-                    <p className='mobile-member-bio mr-4'>Nunc posuere leo eu dui consequat, ut aliquet urna condimentum. Aenean posuere ullamcorper orci, ac consectetur lorem aliquet in. Suspendisse sit amet odio varius, gravida dolor vel, euismod mauris. Donec eu massa feugiat, hendrerit tellus euismod, aliquam libero. Mauris lobortis, urna et suscipit tempus, turpis tellus fermentum justo, a iaculis nisl leo et orci.</p>
+                    <section className='flex flex-col items-center'>
+                        <p className='mobile-member-bio'>Nunc posuere leo eu dui consequat.Aenean posuere ullamcorper orci, ac consectetur lorem aliquet in. Suspendisse sit amet odio varius, gravida dolor vel, euismod mauris. Donec eu massa feugiat, hendrerit tellus euismod, aliquam libero. Mauris lobortis, urna et suscipit tempus, turpis tellus fermentum justo, a iaculis nisl leo et orci.</p>
+                    </section>
                 </article>
-                <article className='mobile-member-icons flex justify-center gap-1 w-full'>
+                <article className='mobile-member-icons flex justify-center gap-1 w-full pt-2 pb-5'>
+                    <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
+                        <FaFacebookSquare className='mobile-member-icon' />
+                    </button>
+                    <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
+                        <FaInstagramSquare className='mobile-member-icon' />
+                    </button>
+                    <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
+                        <TbWorld className='mobile-member-icon' />
+                    </button>
+                    <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
+                        <SiApplemusic className='mobile-member-icon' />
+                    </button>
+                    <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
+                        <FaSpotify className='mobile-member-icon' />
+                    </button>
+                </article>
+                <article className='mobile-band-member-first-name flex justify-center gap-[.1rem] pb-2'>
+                    <h2 className='mobile-band-member-letter'>K</h2>
+                    <h2 className='mobile-band-member-letter'>R</h2>
+                    <h2 className='mobile-band-member-letter'>I</h2>
+                    <h2 className='mobile-band-member-letter'>S</h2>
+                    <h2 className='mobile-band-member-space'>S</h2>
+                    <h2 className='mobile-band-member-letter'>K</h2>
+                    <h2 className='mobile-band-member-letter'>U</h2>
+                    <h2 className='mobile-band-member-letter'>R</h2>
+                    <h2 className='mobile-band-member-letter'>Z</h2>
+                    <h2 className='mobile-band-member-letter'>A</h2>
+                    <h2 className='mobile-band-member-letter'>W</h2>
+                    <h2 className='mobile-band-member-letter'>A</h2>
+                </article>
+                <article className='mobile-member-container grid grid-cols-2'>
+                    <section className='flex justify-center'>
+                        <p className='mobile-member-bio'>Nunc posuere leo eu dui consequat. Aenean posuere ullamcorper orci, ac consectetur lorem aliquet in. Suspendisse sit amet odio varius, gravida dolor vel, euismod mauris. Donec eu massa feugiat, hendrerit tellus euismod, aliquam libero. Mauris lobortis, urna et suscipit tempus, turpis tellus fermentum justo, a iaculis nisl leo et orci.</p>
+                    </section>
+                    <section className='flex justify-center'>
+                        <img src={Kris} alt='Kris Kurzawa' className='mobile-member-pic' />
+                    </section>
+                </article>
+                <article className='mobile-member-icons flex justify-center pt-2 pb-5 gap-1 w-full'>
+                    <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
+                        <FaFacebookSquare className='mobile-member-icon' />
+                    </button>
+                    <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
+                        <FaInstagramSquare className='mobile-member-icon' />
+                    </button>
+                    <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
+                        <TbWorld className='mobile-member-icon' />
+                    </button>
+                    <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
+                        <SiApplemusic className='mobile-member-icon' />
+                    </button>
+                    <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
+                        <FaSpotify className='mobile-member-icon' />
+                    </button>
+                </article>
+                <article className='mobile-band-member-name flex justify-center gap-[.1rem] pb-2'>
+                    <h2 className='mobile-band-member-letter'>S</h2>
+                    <h2 className='mobile-band-member-letter'>T</h2>
+                    <h2 className='mobile-band-member-letter'>E</h2>
+                    <h2 className='mobile-band-member-letter'>V</h2>
+                    <h2 className='mobile-band-member-letter'>E</h2>
+                    <h2 className='mobile-band-member-space'>S</h2>
+                    <h2 className='mobile-band-member-letter'>N</h2>
+                    <h2 className='mobile-band-member-letter'>O</h2>
+                    <h2 className='mobile-band-member-letter'>L</h2>
+                    <h2 className='mobile-band-member-letter'>T</h2>
+                    <h2 className='mobile-band-member-letter'>O</h2>
+                    <h2 className='mobile-band-member-letter'>N</h2>
+                </article>
+                <article className='mobile-steve-container grid grid-cols-2 justify-center'>
+                    <section className='flex flex-col items-center'>
+                        <img src={Steve} alt='Steve Nolton' className='mobile-member-pic' />
+                    </section>
+                    <section className='flex flex-col items-center'>
+                        <p className='mobile-member-bio'>Nunc posuere leo eu dui consequat.Aenean posuere ullamcorper orci, ac consectetur lorem aliquet in. Suspendisse sit amet odio varius, gravida dolor vel, euismod mauris. Donec eu massa feugiat, hendrerit tellus euismod, aliquam libero. Mauris lobortis, urna et suscipit tempus, turpis tellus fermentum justo, a iaculis nisl leo et orci.</p>
+                    </section>
+                </article>
+                <article className='mobile-member-icons flex justify-center gap-1 w-full pt-2 pb-5'>
                     <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
                         <FaFacebookSquare className='mobile-member-icon' />
                     </button>
