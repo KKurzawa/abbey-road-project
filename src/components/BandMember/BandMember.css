@@ -47,15 +47,6 @@
     filter: grayscale(.75) brightness(1.35);
 }
 
-.doug-mobile-member-pic{
-    width: 90%;
-    height: auto;
-    border: solid 10px var(--COLOR-ONE);
-    border-radius: 5%;
-    justify-self: center;
-    filter: grayscale(.75) brightness(1.35);
-}
-
 .mobile-member-icons,
 .mobile-member-icon{
     position: relative;

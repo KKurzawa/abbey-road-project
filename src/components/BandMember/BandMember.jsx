@@ -53,7 +53,7 @@ const BandMember = () => {
                         <FaSpotify className='mobile-member-icon' />
                     </button>
                 </article>
-                <article className='mobile-band-member-first-name flex justify-center gap-[.1rem] pb-2'>
+                <article className='mobile-band-member-name flex justify-center gap-[.1rem] pb-2'>
                     <h2 className='mobile-band-member-letter'>D</h2>
                     <h2 className='mobile-band-member-letter'>O</h2>
                     <h2 className='mobile-band-member-letter'>U</h2>
@@ -134,7 +134,7 @@ const BandMember = () => {
                         <FaSpotify className='mobile-member-icon' />
                     </button>
                 </article>
-                <article className='mobile-band-member-first-name flex justify-center gap-[.1rem] pb-2'>
+                <article className='mobile-band-member-name flex justify-center gap-[.1rem] pb-2'>
                     <h2 className='mobile-band-member-letter'>K</h2>
                     <h2 className='mobile-band-member-letter'>R</h2>
                     <h2 className='mobile-band-member-letter'>I</h2>
