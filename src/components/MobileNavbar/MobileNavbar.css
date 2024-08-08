@@ -15,6 +15,27 @@
     align-items: center;
 }
 
+.mobile-nav,
+.mobile-nav-link,
+.nav-icons{
+    background-color: var(--COLOR-ONE);
+    color: var(--COLOR-SEVEN);
+    font-family: var(--FONT-ONE);
+    font-size: 3rem;
+}
+
+.nav-icon-btn{
+    width: fit-content;
+}
+
+.nav-icon{
+    background-color: var(--COLOR-ONE);
+    color: var(--COLOR-SEVEN);
+    width: fit-content;
+    height: auto;
+    font-size: 3rem;
+}
+
 @media only screen and (min-width: 600px) {
     /* For tablets: */
     .hamburger-react{
