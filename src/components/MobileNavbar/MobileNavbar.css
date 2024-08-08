@@ -1,0 +1,13 @@
+.mobile-nav-main{
+    position: relative;
+    background: transparent;
+    width: 100%;
+}
+
+.mobile-nav{
+    width: 100%;
+    position: absolute;
+    background: transparent;
+    top: 1px;
+    right: 1px;
+}

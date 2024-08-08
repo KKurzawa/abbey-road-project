@@ -1,9 +1,11 @@
 import './Header.css'
 import Navbar from '../Navbar/Navbar'
+import MobileNavbar from '../MobileNavbar/MobileNavbar'
 
 const Header = () => {
     return (
         <main className='header-main w-full h-auto'>
+            <MobileNavbar className='block md:hidden' />
             <header className='page-title flex flex-col  w-full h-auto'>
                 <article className=' md:hidden flex h-auto justify-center items-center gap-1 mt-3'>
                     <h2 className='title'>T</h2>
