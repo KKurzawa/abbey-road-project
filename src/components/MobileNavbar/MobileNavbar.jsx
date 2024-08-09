@@ -1,5 +1,5 @@
 import './MobileNavbar.css'
-import { Spin as Hamburger } from 'hamburger-react'
+import { Fade as Hamburger } from 'hamburger-react'
 import { useState } from 'react'
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
@@ -42,15 +42,15 @@ const MobileNavbar = () => {
             {isOpen &&
                 <nav className='absolute z-10 top-[3.3rem]'
                 >
-                    <ul className='mobile-nav pb-4'>
-                        <li className='mobile-nav-link pl-2'><button className='w-fit' onClick={navigateToShows}>SHOWS</button></li>
-                        <li className='mobile-nav-link pl-2'><button className='w-fit' onClick={navigateToBand}>BAND</button></li>
-                        <li className='mobile-nav-link pl-2'><button onClick={navigateToContact} className='w-fit' >CONTACT</button></li>
+                    <ul className='mobile-nav pb-4 pl-2'>
+                        <li className='mobile-nav-link w-fit px-2 rounded-xl'><button className='w-fit' onClick={navigateToShows}>SHOWS</button></li>
+                        <li className='mobile-nav-link w-fit px-2 rounded-xl'><button className='w-fit' onClick={navigateToBand}>BAND</button></li>
+                        <li className='mobile-nav-link w-fit px-2 rounded-xl'><button onClick={navigateToContact} className='w-fit' >CONTACT</button></li>
                     </ul>
-                    <ul className='nav-icons flex gap-6 pl-2 pb-6'>
-                        <button className='nav-icon-btn' onClick={() => setTimeout(() => window.open('https://www.facebook.com/profile.php?id=61563049205575', '_blank'), 500)}><FaFacebookSquare className='nav-icon' /></button>
-                        <button className='nav-icon-btn' onClick={() => setTimeout(() => window.open('https://www.instagram.com/k_kurzawa/', '_blank'), 500)}><FaInstagramSquare className='nav-icon' /></button>
-                        <button className='nav-icon-btn' onClick={() => setTimeout(() => window.open('https://www.youtube.com/channel/UCosE-h5XuXSkR4dG_hBaCUg', '_blank'), 500)}><IoLogoYoutube className='nav-icon' /></button>
+                    <ul className='nav-icons flex gap-4 pl-2 pb-6'>
+                        <button className='nav-icon-btn' onClick={() => setTimeout(() => window.open('https://www.facebook.com/profile.php?id=61563049205575', '_blank'), 500)}><FaFacebookSquare className='mobile-nav-icon' /></button>
+                        <button className='nav-icon-btn' onClick={() => setTimeout(() => window.open('https://www.instagram.com/k_kurzawa/', '_blank'), 500)}><FaInstagramSquare className='mobile-nav-icon' /></button>
+                        <button className='nav-icon-btn' onClick={() => setTimeout(() => window.open('https://www.youtube.com/channel/UCosE-h5XuXSkR4dG_hBaCUg', '_blank'), 500)}><IoLogoYoutube className='mobile-nav-icon' /></button>
                     </ul>
                 </nav>
             }

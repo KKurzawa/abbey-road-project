@@ -22,18 +22,28 @@
     color: var(--COLOR-SEVEN);
     font-family: var(--FONT-ONE);
     font-size: 3rem;
+    transition: all .5s linear;
 }
 
 .nav-icon-btn{
     width: fit-content;
 }
 
-.nav-icon{
-    background-color: var(--COLOR-ONE);
+.mobile-nav-icon{
     color: var(--COLOR-SEVEN);
     width: fit-content;
     height: auto;
     font-size: 3rem;
+    padding: 4px;
+    border-radius: 5px;
+    background-color: var(--COLOR-ONE);
+    transition: all .5s linear;
+}
+
+.mobile-nav-icon:hover,
+.mobile-nav-link:hover{
+    background-color: var(--COLOR-SEVEN);
+    color: var(--COLOR-ONE);
 }
 
 @media only screen and (min-width: 600px) {

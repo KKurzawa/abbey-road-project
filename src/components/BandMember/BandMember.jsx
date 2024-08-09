@@ -73,7 +73,7 @@ const BandMember = () => {
                         <img src={Doug} alt='Doug Brown' className='mobile-member-pic' />
                     </section>
                 </article>
-                <article className='mobile-member-icons flex justify-center pt-2 pb-5 gap-1 w-full'>
+                <article className='mobile-member-icons flex justify-center pt-2 pb-5 gap-[.15rem] w-full'>
                     <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
                         <FaFacebookSquare className='mobile-member-icon' />
                     </button>
