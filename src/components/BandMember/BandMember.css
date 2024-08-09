@@ -54,10 +54,13 @@
     font-size: 1.5rem;
     transition: all .5s linear;
     width: fit-content;
+    padding: 3px;
+    border-radius: 3px;
 }
 
 .mobile-member-icon:hover{
-    color: var(--COLOR-EIGHT);
+    background-color: var(--COLOR-ONE);
+    color: var(--COLOR-FIVE);
 }
 
 .mobile-member-bio{
@@ -178,10 +181,13 @@
     height: auto;
     background-color: transparent;
     transition: all .5s linear;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 .member-icon:hover{
-    color: var(--COLOR-EIGHT)
+    color: var(--COLOR-FIVE);
+    background-color: var(--COLOR-ONE);
 }
 
 /* Media Query for low resolution  Tablets, Ipads */
