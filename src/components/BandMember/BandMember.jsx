@@ -267,7 +267,7 @@ const BandMember = () => {
                             <h2 className='band-member-letter'>N</h2>
                         </article>
                         <p className='member-bio'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce blandit non leo a aliquam. Etiam feugiat quam nisl, et tincidunt nunc luctus tempor. Nunc posuere leo eu dui consequat, ut aliquet urna condimentum. Aenean posuere ullamcorper orci, ac consectetur lorem aliquet in. Suspendisse sit amet odio varius, gravida dolor vel, euismod mauris. Donec eu massa feugiat, hendrerit tellus euismod, aliquam libero. Mauris lobortis, urna et suscipit tempus, turpis tellus fermentum justo, a iaculis nisl leo et orci.</p>
-                        <article className='member-icons flex gap-3'>
+                        <article className='member-icons flex gap-1'>
                             <button className='member-icon-button' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
                                 <FaFacebookSquare className='member-icon' />
                             </button>
@@ -310,7 +310,7 @@ const BandMember = () => {
                             <h2 className='band-member-letter'>N</h2>
                         </article>
                         <p className='member-bio'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce blandit non leo a aliquam. Etiam feugiat quam nisl, et tincidunt nunc luctus tempor. Nunc posuere leo eu dui consequat, ut aliquet urna condimentum. Aenean posuere ullamcorper orci, ac consectetur lorem aliquet in. Suspendisse sit amet odio varius, gravida dolor vel, euismod mauris. Donec eu massa feugiat, hendrerit tellus euismod, aliquam libero. Mauris lobortis, urna et suscipit tempus, turpis tellus fermentum justo, a iaculis nisl leo et orci.</p>
-                        <article className='member-icons flex gap-3'>
+                        <article className='member-icons flex gap-1'>
                             <button className='member-icon-button' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
                                 <FaFacebookSquare className='member-icon' />
                             </button>
@@ -346,7 +346,7 @@ const BandMember = () => {
                             <h2 className='band-member-letter'>A</h2>
                         </article>
                         <p className='member-bio'>Kris Kurzawa&apos;s versatility has led him to become one of Detroit area&apos;s most in demand guitarists since the early 2000&apos;s; crossing multiple genres including jazz, fusion, rock, world music and R+B. He released his first album &apos;Sly&apos; in 2016 earning him his fifth Detroit Music Award. He earned his bachelors degree in 2003 and his masters in 2012 with a concentration in jazz studies from Wayne State University. Kris has over 20 years teaching experience and is adjunct faculty in Wayne State Universities jazz studies program.</p>
-                        <article className='member-icons flex gap-3'>
+                        <article className='member-icons flex gap-1'>
                             <button className='member-icon-button' onClick={() => setTimeout(() => window.open('https://www.facebook.com/KrisKurzawaGuitar/', '_blank'), 500)}>
                                 <FaFacebookSquare className='member-icon' />
                             </button>
@@ -384,7 +384,7 @@ const BandMember = () => {
                             <h2 className='band-member-letter'>N</h2>
                         </article>
                         <p className='member-bio'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce blandit non leo a aliquam. Etiam feugiat quam nisl, et tincidunt nunc luctus tempor. Nunc posuere leo eu dui consequat, ut aliquet urna condimentum. Aenean posuere ullamcorper orci, ac consectetur lorem aliquet in. Suspendisse sit amet odio varius, gravida dolor vel, euismod mauris. Donec eu massa feugiat, hendrerit tellus euismod, aliquam libero. Mauris lobortis, urna et suscipit tempus, turpis tellus fermentum justo, a iaculis nisl leo et orci.</p>
-                        <article className='member-icons flex gap-3'>
+                        <article className='member-icons flex gap-1'>
                             <button className='member-icon-button' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
                                 <FaFacebookSquare className='member-icon' />
                             </button>
