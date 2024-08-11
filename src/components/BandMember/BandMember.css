@@ -2,6 +2,8 @@
 .mobile-member-main{
     position: relative;
     z-index: 1;
+    border-top: var(--BORDER-THREE);
+    border-bottom: var(--BORDER-THREE);
 }
 
 .mobile-member-main::before{
@@ -41,10 +43,11 @@
 .mobile-member-pic{
     width:85%;
     height: auto;
-    border: solid 10px var(--COLOR-ONE);
+    border: var(--BORDER-FOUR);
     border-radius: 5%;
     justify-self: center;
     filter: grayscale(.75) brightness(1.35);
+    outline: var(--BORDER-ONE);
 }
 
 .mobile-member-icons,
@@ -52,7 +55,7 @@
     position: relative;
     background-color: transparent;
     font-size: 1.5rem;
-    transition: all .5s linear;
+    transition: all .25s linear;
     width: fit-content;
     padding: 5px;
     border-radius: 5px;
@@ -60,7 +63,7 @@
 
 .mobile-member-icon:hover{
     background-color: var(--COLOR-ONE);
-    color: var(--COLOR-FIVE);
+    color: var(--COLOR-SEVEN);
 }
 
 .mobile-member-bio{
@@ -74,11 +77,14 @@
     position: relative;
     width: 90%;
     height: 100%;
+    border: var(--BORDER-ONE);
 }
 
 /* medium and large */
 .band-member-main{
     position: relative;
+    border-top: var(--BORDER-THREE);
+    border-bottom: var(--BORDER-THREE);
 }
 
 .band-member-main::before{
@@ -105,10 +111,11 @@
 .member-pic{
     width: 75%;
     height: auto;
-    border: solid 10px var(--COLOR-ONE);
+    border: var(--BORDER-FOUR);
     border-radius: 5%;
     justify-self: center;
     filter: grayscale(.75) brightness(1.35);
+    outline: var(--BORDER-ONE);
 }
 
 .band-member-name{
@@ -166,6 +173,7 @@
     color: var(--COLOR-SEVEN);
     padding: 1rem;
     border-radius: 10px;
+    border: var(--BORDER-ONE);
 }
 
 .member-icons{
@@ -180,13 +188,13 @@
     width: 4.5rem;
     height: auto;
     background-color: transparent;
-    transition: all .5s linear;
+    transition: all .25s linear;
     border-radius: 10px;
     padding: 10px;
 }
 
 .member-icon:hover{
-    color: var(--COLOR-FIVE);
+    color: var(--COLOR-SEVEN);
     background-color: var(--COLOR-ONE);
 }
 

@@ -3,7 +3,6 @@
     z-index: 1;
 }
 .header-main::before{
-    /* background-color: var(--COLOR-TWO); */
     content: '';
     position: absolute;
     background-image: url('/Bricks.jpg');
@@ -14,6 +13,16 @@
     background-position: center;
     z-index: 0;
     opacity: .75;
+}
+
+.page-title{
+    border-top: var(--BORDER-THREE);
+    position: relative;
+    background: transparent;
+}
+
+.title-container{
+    background: transparent;
 }
 
 .title,
@@ -57,7 +66,11 @@
     .title,
     .space{
         font-size: 4rem;
-        height: 5rem;
+        height: 5rem; 
         width: 3rem;
+    }
+
+    .page-title{
+        border-bottom: var(--BORDER-THREE);
     }
 }

@@ -15,6 +15,10 @@
     align-items: center;
 }
 
+.mobile-nav-dropdown{
+    border-bottom: var(--BORDER-THREE);
+}
+
 .mobile-nav,
 .mobile-nav-link,
 .nav-icons{
@@ -22,7 +26,7 @@
     color: var(--COLOR-SEVEN);
     font-family: var(--FONT-ONE);
     font-size: 3rem;
-    transition: all .5s linear;
+    transition: all .25s linear;
 }
 
 .nav-icon-btn{
@@ -37,12 +41,12 @@
     padding: 4px;
     border-radius: 5px;
     background-color: var(--COLOR-ONE);
-    transition: all .5s linear;
+    transition: all .25s linear;
 }
 
 .mobile-nav-icon:hover,
 .mobile-nav-link:hover{
-    background-color: var(--COLOR-EIGHT);
+    background-color: var(--COLOR-SEVEN);
     color: var(--COLOR-ONE);
 }
 

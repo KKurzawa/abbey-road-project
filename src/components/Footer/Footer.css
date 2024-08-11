@@ -7,7 +7,14 @@
     width: fit-content;
     color:var(--COLOR-SEVEN);
     background-color: var(--COLOR-ONE);
-    transition: all .5s linear;
+    transition: all .25s linear;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.footer-icon:hover{
+    color: var(--COLOR-ONE);
+    background-color: var(--COLOR-SEVEN);
 }
 
 .mailto,
@@ -23,7 +30,6 @@
 
 .mailto:hover,
 .phone:hover,
-.dev-link:hover,
-.footer-icon:hover{
+.dev-link:hover{
     color: var(--COLOR-FIVE);
 }

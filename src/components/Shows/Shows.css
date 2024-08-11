@@ -1,5 +1,6 @@
 .shows-header{
     background-color: var(--COLOR-ONE);
+    border-top: var(--BORDER-THREE)
 }
 
 .shows-header-letter{

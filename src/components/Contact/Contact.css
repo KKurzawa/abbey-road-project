@@ -16,6 +16,8 @@
 
 .contact-form{
     position: relative;
+    border-top: var(--BORDER-THREE);
+    border-bottom: var(--BORDER-THREE);
 }
 
 .contact-form::before{
@@ -41,7 +43,7 @@
     position: relative;
     font-family: var(--FONT-ONE);
     outline: none;
-    border: solid 2px var(--COLOR-SEVEN)
+    border: var(--BORDER-ONE)
 }
 
 .submit-btn{
@@ -51,5 +53,5 @@
 .submit-btn:hover{
     color: var(--COLOR-ONE);
     background-color: var(--COLOR-FIVE);
-    border: solid 2px var(--COLOR-ONE);
+    border: var(--BORDER-TWO)
 }

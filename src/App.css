@@ -24,4 +24,10 @@
   --COLOR-SIX: #3b6788;
   --COLOR-SEVEN: #d5d1cc;
   --COLOR-EIGHT: #7f8282;
+
+  /* borders */
+  --BORDER-ONE: solid 1px var(--COLOR-SEVEN);
+  --BORDER-TWO: solid 1px var(--COLOR-ONE);
+  --BORDER-THREE: solid 2px var(--COLOR-SEVEN);
+  --BORDER-FOUR: solid 10px var(--COLOR-ONE)
 }

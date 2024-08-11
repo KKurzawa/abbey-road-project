@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { IoLogoYoutube } from "react-icons/io5";
+import { motion } from 'framer-motion';
 
 const MobileNavbar = () => {
     const [isOpen, setOpen] = useState(false)
@@ -40,7 +41,8 @@ const MobileNavbar = () => {
                 direction="right"
                 size={35} />
             {isOpen &&
-                <nav className='absolute z-10 top-[3.3rem]'
+                <motion.nav
+                    className='mobile-nav-dropdown absolute z-10 top-[3.3rem]'
                 >
                     <ul className='mobile-nav pb-4 pl-2'>
                         <li className='mobile-nav-link w-fit px-2 rounded-xl'><button className='w-fit' onClick={navigateToShows}>SHOWS</button></li>
@@ -52,7 +54,7 @@ const MobileNavbar = () => {
                         <button className='nav-icon-btn' onClick={() => setTimeout(() => window.open('https://www.instagram.com/k_kurzawa/', '_blank'), 500)}><FaInstagramSquare className='mobile-nav-icon' /></button>
                         <button className='nav-icon-btn' onClick={() => setTimeout(() => window.open('https://www.youtube.com/channel/UCosE-h5XuXSkR4dG_hBaCUg', '_blank'), 500)}><IoLogoYoutube className='mobile-nav-icon' /></button>
                     </ul>
-                </nav>
+                </motion.nav>
             }
         </main>
     )

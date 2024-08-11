@@ -1,5 +1,7 @@
 .single-show-main{
     position: relative;
+    border-top: var(--BORDER-THREE);
+    border-bottom: var(--BORDER-THREE);
 }
 
 .single-show-main::before{
@@ -24,6 +26,7 @@
     padding-bottom: 1rem;
     border-radius: 10px;
     position: relative;
+    border: var(--BORDER-ONE);
 }
 
 .single-show,
