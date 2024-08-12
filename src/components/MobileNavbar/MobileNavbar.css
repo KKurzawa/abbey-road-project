@@ -17,6 +17,7 @@
 
 .mobile-nav-dropdown{
     border-bottom: var(--BORDER-THREE);
+    transition: all 3s linear;
 }
 
 .mobile-nav,

@@ -41,13 +41,20 @@ const MobileNavbar = () => {
                 direction="right"
                 size={35} />
             {isOpen &&
-                <motion.nav
-                    className='mobile-nav-dropdown absolute z-10 top-[3.3rem]'
-                >
+                <motion.nav className='mobile-nav-dropdown absolute z-10 top-[3.3rem]'>
                     <ul className='mobile-nav pb-4 pl-2'>
-                        <li className='mobile-nav-link w-fit px-2 rounded-xl'><button className='w-fit' onClick={navigateToShows}>SHOWS</button></li>
-                        <li className='mobile-nav-link w-fit px-2 rounded-xl'><button className='w-fit' onClick={navigateToBand}>BAND</button></li>
-                        <li className='mobile-nav-link w-fit px-2 rounded-xl'><button onClick={navigateToContact} className='w-fit' >CONTACT</button></li>
+                        <motion.li
+                            initial={{
+                                left: '100%', opacity: 0
+                            }}
+                            animate={{ left: '0%', opacity: 1 }}
+                            transition={{
+                                duration: .1,
+                                // delay: 
+                            }}
+                            className='mobile-nav-link w-fit px-2 rounded-xl relative'><button className='w-fit' onClick={navigateToShows}>SHOWS</button></motion.li>
+                        <motion.li className='mobile-nav-link w-fit px-2 rounded-xl'><button className='w-fit' onClick={navigateToBand}>BAND</button></motion.li>
+                        <motion.li className='mobile-nav-link w-fit px-2 rounded-xl'><button onClick={navigateToContact} className='w-fit' >CONTACT</button></motion.li>
                     </ul>
                     <ul className='nav-icons flex gap-4 pl-2 pb-6'>
                         <button className='nav-icon-btn' onClick={() => setTimeout(() => window.open('https://www.facebook.com/profile.php?id=61563049205575', '_blank'), 500)}><FaFacebookSquare className='mobile-nav-icon' /></button>
