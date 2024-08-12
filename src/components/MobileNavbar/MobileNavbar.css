@@ -13,11 +13,12 @@
     background-color: transparent;
     display: flex;
     align-items: center;
+    z-index: 5;
 }
 
 .mobile-nav-dropdown{
     border-bottom: var(--BORDER-THREE);
-    transition: all 3s linear;
+    background-color: var(--COLOR-ONE);
 }
 
 .mobile-nav,
