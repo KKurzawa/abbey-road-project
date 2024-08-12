@@ -40,6 +40,7 @@ const Show = () => {
                     </li>
                 </ol>
             ))}
+            <a href='#top' className='shows-top-btn text-center'>To The Top</a>
         </main>
     )
 }

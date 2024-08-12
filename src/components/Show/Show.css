@@ -49,6 +49,17 @@
     color: var(--COLOR-FIVE);
 }
 
+.shows-top-btn{
+    background-color: var(--COLOR-SIX);
+    /* background: transparent; */
+    /* border-bottom: var(--BORDER-THREE); */
+    font-size: 2rem;
+    position: relative;
+    z-index: 1;
+    border-top: var(--BORDER-THREE);
+    color: var(--COLOR-SEVEN);
+}
+
 @media (max-width: 480px) {
     .single-show{
         margin-top: 3rem;
@@ -68,4 +79,6 @@
     .venue{
         font-size: 1.25rem;
     }
+
+ 
 }

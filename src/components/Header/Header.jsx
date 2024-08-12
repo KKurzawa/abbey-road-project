@@ -4,7 +4,7 @@ import MobileNavbar from '../MobileNavbar/MobileNavbar'
 
 const Header = () => {
     return (
-        <main className='header-main w-full h-auto'>
+        <main id='top' className='header-main w-full h-auto'>
             <MobileNavbar className='block md:hidden' />
             <header className='page-title flex flex-col  w-full h-auto'>
                 <article className='title-container md:hidden flex h-auto justify-center items-center gap-1 mt-3'>

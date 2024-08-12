@@ -47,7 +47,8 @@ const MobileNavbar = () => {
                     initial={{ top: '-15rem' }}
                     animate={{ top: '3.3rem' }}
                     exit={{ top: '-15rem' }}
-                    className='mobile-nav-dropdown absolute'>
+                    className='mobile-nav-dropdown absolute'
+                    id='dropdown'>
                     <ul className='mobile-nav pb-4 pl-2'>
                         <motion.li
                             initial={{ left: '100%', opacity: 0 }}
