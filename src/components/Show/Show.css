@@ -50,14 +50,29 @@
 }
 
 .shows-top-btn{
-    background-color: var(--COLOR-SIX);
-    /* background: transparent; */
-    /* border-bottom: var(--BORDER-THREE); */
-    font-size: 2rem;
+    background-color: transparent;
     position: relative;
     z-index: 1;
-    border-top: var(--BORDER-THREE);
+    margin-bottom: 1rem;
+}
+
+.show-top-letter{
+    background-color: var(--COLOR-ONE);
     color: var(--COLOR-SEVEN);
+    height: fit-content;
+    font-family: var(--FONT-ONE);
+    font-size: 2rem;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.show-top-space{
+    background-color: var(--COLOR-ONE);
+    color: transparent;
+    height: fit-content;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 2rem;
 }
 
 @media (max-width: 480px) {
