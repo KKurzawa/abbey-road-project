@@ -40,7 +40,7 @@ const Show = () => {
                     </li>
                 </ol>
             ))}
-            <a href='#top' className='shows-top-btn flex w-fit h-fit gap-1'>
+            <a href='#top' className='shows-top-btn flex w-fit h-fit gap-[.15rem]'>
                 <h2 className='show-top-letter'>T</h2>
                 <h2 className='show-top-letter'>O</h2>
                 <h2 className='show-top-space'>S</h2>

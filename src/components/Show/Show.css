@@ -59,20 +59,26 @@
 .show-top-letter{
     background-color: var(--COLOR-ONE);
     color: var(--COLOR-SEVEN);
-    height: fit-content;
     font-family: var(--FONT-ONE);
     font-size: 2rem;
     padding-left: 4px;
     padding-right: 4px;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .show-top-space{
     background-color: var(--COLOR-ONE);
     color: transparent;
-    height: fit-content;
     padding-left: 4px;
     padding-right: 4px;
     font-size: 2rem;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width: 480px) {

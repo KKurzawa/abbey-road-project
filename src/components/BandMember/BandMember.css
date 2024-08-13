@@ -198,6 +198,37 @@
     background-color: var(--COLOR-ONE);
 }
 
+.band-top-btn{
+    background-color: transparent;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 1rem;
+}
+.band-top-letter{
+    background-color: var(--COLOR-ONE);
+    color: var(--COLOR-SEVEN);
+    font-family: var(--FONT-ONE);
+    font-size: 2rem;
+    padding-left: 4px;
+    padding-right: 4px;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.band-top-space{
+    background-color: var(--COLOR-ONE);
+    color: transparent;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 2rem;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Media Query for low resolution  Tablets, Ipads */
 @media (min-width: 481px) and (max-width: 770px) {
     .band-member-letter,

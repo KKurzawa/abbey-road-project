@@ -214,7 +214,7 @@ const BandMember = () => {
                 </article>
             </main>
             {/* medium and large */}
-            <main className='band-member-main hidden md:block pb-12'>
+            <main className='band-member-main hidden md:flex flex-col items-center pb-12'>
                 <article className='michael-container grid grid-cols-3 justify-center items-center'>
                     <img src={Michael} alt='Michael King' className='member-pic' />
                     <section className='michael-text flex flex-col gap-4 col-span-2'>
@@ -403,6 +403,18 @@ const BandMember = () => {
                         </article>
                     </section>
                 </article>
+                <a href='#top' className='band-top-btn flex justify-center w-fit h-fit gap-[.15rem]'>
+                    <h2 className='band-top-letter'>T</h2>
+                    <h2 className='band-top-letter'>O</h2>
+                    <h2 className='band-top-space'>S</h2>
+                    <h2 className='band-top-letter'>T</h2>
+                    <h2 className='band-top-letter'>H</h2>
+                    <h2 className='band-top-letter'>E</h2>
+                    <h2 className='band-top-space'>S</h2>
+                    <h2 className='band-top-letter'>T</h2>
+                    <h2 className='band-top-letter'>O</h2>
+                    <h2 className='band-top-letter'>P</h2>
+                </a>
             </main>
         </>
     )
