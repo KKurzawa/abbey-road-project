@@ -14,13 +14,13 @@
     padding-bottom: 7px;
 }
 
-.contact-form{
+.contact-form-container{
     position: relative;
     border-top: var(--BORDER-THREE);
     border-bottom: var(--BORDER-THREE);
 }
 
-.contact-form::before{
+.contact-form-container::before{
     content: '';
     position: absolute;
     background-image: url('/AbbeyRoadBg.png');
@@ -52,8 +52,9 @@
 
 .submit-btn:hover{
     color: var(--COLOR-ONE);
-    background-color: var(--COLOR-FIVE);
-    border: var(--BORDER-TWO)
+    background-color: var(--COLOR-SEVEN);
+    border: var(--BORDER-TWO);
+    box-shadow: 3px 3px 5px var(--COLOR-ONE);
 }
 
 .contact-top-btn{
@@ -61,10 +62,26 @@
     position: relative;
     z-index: 1;
     margin-bottom: .5rem;
+    color: var(--COLOR-SEVEN);
 }
+
 .contact-top-letter{
     background-color: var(--COLOR-ONE);
-    color: var(--COLOR-SEVEN);
+    font-family: var(--FONT-ONE);
+    font-size: 2rem;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: .15rem;
+    line-height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s linear;
+    height: 2rem;
+}
+
+.contact-top-space{
+    background-color: var(--COLOR-ONE);
     font-family: var(--FONT-ONE);
     font-size: 2rem;
     padding-left: 4px;
@@ -73,18 +90,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all .5s linear;
+    color: transparent;
+    height: 2rem;
 }
 
-.contact-top-space{
-    background-color: var(--COLOR-ONE);
+.contact-top-btn:hover .contact-top-letter{
+    background-color: var(--COLOR-SEVEN);
+    color: var(--COLOR-ONE);
+    box-shadow: 3px 3px 5px var(--COLOR-ONE);
+}
+.contact-top-btn:hover .contact-top-space{
+    background-color: var(--COLOR-SEVEN);
     color: transparent;
-    padding-left: 4px;
-    padding-right: 4px;
-    font-size: 2rem;
-    line-height: normal;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    box-shadow: 3px 3px 5px var(--COLOR-ONE);
 }
 
 

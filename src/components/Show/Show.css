@@ -41,12 +41,16 @@
     background-color: var(--COLOR-ONE);
     font-size: 2rem;
     transition: all .5s linear;
+    width: fit-content;
+    border-radius: 5px;
+    line-height: 2rem;
 }
 
 .venue:hover,
 .city:hover,
 .tckt-btn:hover{
-    color: var(--COLOR-FIVE);
+    color: var(--COLOR-ONE);
+    background-color: var(--COLOR-SEVEN);
 }
 
 .shows-top-btn{
@@ -54,11 +58,26 @@
     position: relative;
     z-index: 1;
     margin-bottom: .5rem;
+    color: var(--COLOR-SEVEN);
 }
 
 .show-top-letter{
     background-color: var(--COLOR-ONE);
-    color: var(--COLOR-SEVEN);
+    font-family: var(--FONT-ONE);
+    font-size: 2rem;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: .15rem;
+    line-height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s linear;
+    height: 2rem;
+}
+
+.show-top-space{
+    background-color: var(--COLOR-ONE);
     font-family: var(--FONT-ONE);
     font-size: 2rem;
     padding-left: 4px;
@@ -68,24 +87,19 @@
     justify-content: center;
     align-items: center;
     transition: all .5s linear;
-}
-
-.show-top-space{
-    background-color: var(--COLOR-ONE);
     color: transparent;
-    padding-left: 4px;
-    padding-right: 4px;
-    font-size: 2rem;
-    line-height: normal;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all .5s linear;
+    height: 2rem;
 }
 
-.show-top-btn:hover .show-top-letter,
-.show-top-btn:hover .show-top-space{
+.shows-top-btn:hover .show-top-letter{
     background-color: var(--COLOR-SEVEN);
+    color: var(--COLOR-ONE);
+    box-shadow: 3px 3px 5px var(--COLOR-ONE);
+}
+.shows-top-btn:hover .show-top-space{
+    background-color: var(--COLOR-SEVEN);
+    color: transparent;
+    box-shadow: 3px 3px 5px var(--COLOR-ONE);
 }
 
 @media (max-width: 480px) {

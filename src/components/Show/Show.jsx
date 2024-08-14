@@ -18,17 +18,17 @@ const Show = () => {
         <main className='single-show-main w-full h-auto flex flex-col items-center'>
             {showList.map((item) => (
                 <ol key={item.index} className='single-show flex flex-col items-center w-fit'>
-                    <article className='date-time w-fit flex flex-row gap-2'>
+                    <article className='date-time w-fit flex flex-row mb-2 pb-1 gap-2'>
                         <li className='date w-fit'>{item.date}</li>
                         <li className='time w-fit'>{item.time}</li>
                     </article>
                     <button onClick={() => setTimeout(() =>
                         window.open(item.venueLink, '_blank')
-                        , 500)} className='venue'>{item.venue}</button>
+                        , 500)} className='venue mb-2 px-2 pb-1 pt-[.15rem]'>{item.venue}</button>
                     <button onClick={() => setTimeout(() =>
                         window.open(item.cityLink, '_blank')
-                        , 500)} className='city'>{item.city}</button>
-                    <li className='tckt-btn'>
+                        , 500)} className='city mb-2 px-2 pb-1 pt-[.15rem]'>{item.city}</button>
+                    <li className='tckt-btn mb-1 px-2 pb-1 pt-[.15rem]'>
                         {item.ticketLink === 1 ? (
                             <button onClick={notYetAvailable}>Get Tickets</button>
                         ) :
@@ -40,7 +40,10 @@ const Show = () => {
                     </li>
                 </ol>
             ))}
-            <a href='#top' className='shows-top-btn flex w-fit h-fit gap-[.15rem]'>
+            <button onClick={() => setTimeout(() => {
+                const showTopBtn = document.querySelector('#top');
+                showTopBtn?.scrollIntoView({ behavior: 'smooth' })
+            }, 500)} className='shows-top-btn flex w-fit h-fit gap-[.15rem]'>
                 <h2 className='show-top-letter'>T</h2>
                 <h2 className='show-top-letter'>O</h2>
                 <h2 className='show-top-space'>S</h2>
@@ -51,7 +54,7 @@ const Show = () => {
                 <h2 className='show-top-letter'>T</h2>
                 <h2 className='show-top-letter'>O</h2>
                 <h2 className='show-top-letter'>P</h2>
-            </a>
+            </button>
         </main>
     )
 }

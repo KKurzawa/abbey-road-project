@@ -31,6 +31,7 @@
 .nav-link:hover .nav-link-letter{
     background-color: var(--COLOR-SEVEN);
     color: var(--COLOR-ONE);
+    box-shadow: 3px 3px 5px var(--COLOR-ONE);
 }
 
 @media (min-width: 481px) and (max-width: 770px) {

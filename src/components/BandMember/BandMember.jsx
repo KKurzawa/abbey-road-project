@@ -212,7 +212,10 @@ const BandMember = () => {
                         <FaSpotify className='mobile-member-icon' />
                     </button>
                 </article>
-                <a href='#top' className='mobile-band-top-btn flex justify-center w-fit h-fit gap-[.15rem]'>
+                <button onClick={() => setTimeout(() => {
+                    const showTopBtn = document.querySelector('#top');
+                    showTopBtn?.scrollIntoView({ behavior: 'smooth' })
+                }, 500)} className='mobile-band-top-btn flex justify-center w-fit h-fit gap-[.15rem]'>
                     <h2 className='mobile-band-top-letter'>T</h2>
                     <h2 className='mobile-band-top-letter'>O</h2>
                     <h2 className='mobile-band-top-space'>S</h2>
@@ -223,7 +226,7 @@ const BandMember = () => {
                     <h2 className='mobile-band-top-letter'>T</h2>
                     <h2 className='mobile-band-top-letter'>O</h2>
                     <h2 className='mobile-band-top-letter'>P</h2>
-                </a>
+                </button>
             </main>
             {/* medium and large */}
             <main className='band-member-main hidden md:flex flex-col items-center'>
@@ -415,7 +418,10 @@ const BandMember = () => {
                         </article>
                     </section>
                 </article>
-                <a href='#top' className='band-top-btn flex justify-center w-fit h-fit gap-[.15rem]'>
+                <button onClick={() => setTimeout(() => {
+                    const showTopBtn = document.querySelector('#top');
+                    showTopBtn?.scrollIntoView({ behavior: 'smooth' })
+                }, 500)} className='band-top-btn flex justify-center w-fit h-fit gap-[.15rem]'>
                     <h2 className='band-top-letter'>T</h2>
                     <h2 className='band-top-letter'>O</h2>
                     <h2 className='band-top-space'>S</h2>
@@ -426,7 +432,7 @@ const BandMember = () => {
                     <h2 className='band-top-letter'>T</h2>
                     <h2 className='band-top-letter'>O</h2>
                     <h2 className='band-top-letter'>P</h2>
-                </a>
+                </button>
             </main>
         </>
     )

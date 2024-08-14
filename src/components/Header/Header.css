@@ -72,8 +72,4 @@
         height: 5rem; 
         width: 3rem;
     }
-
-    .page-title{
-        border-bottom: var(--BORDER-THREE);
-    }
 }

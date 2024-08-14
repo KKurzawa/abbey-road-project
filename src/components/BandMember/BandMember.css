@@ -85,9 +85,9 @@
     position: relative;
     z-index: 1;
     margin-bottom: .5rem;
-    display: flex;
-    justify-content: center;
+    color: var(--COLOR-SEVEN);
 }
+
 .mobile-band-top-letter{
     background-color: var(--COLOR-ONE);
     font-family: var(--FONT-ONE);
@@ -102,6 +102,7 @@
     padding-bottom: 1px;
     color: var(--COLOR-SEVEN);
     position: relative;
+    transition: all .5s linear;
 }
 
 .mobile-band-top-space{
@@ -118,6 +119,18 @@
     padding-bottom: 1px;
     color: transparent;
     position: relative;
+    transition: all .5s linear;
+}
+
+.mobile-band-top-btn:hover .mobile-band-top-letter{
+    background-color: var(--COLOR-SEVEN);
+    color: var(--COLOR-ONE);
+    box-shadow: 3px 3px 5px var(--COLOR-ONE);
+}
+.mobile-band-top-btn:hover .mobile-band-top-space{
+    background-color: var(--COLOR-SEVEN);
+    color: transparent;
+    box-shadow: 3px 3px 5px var(--COLOR-ONE);
 }
 
 /* medium and large */
@@ -243,10 +256,26 @@
     position: relative;
     z-index: 1;
     margin-bottom: .5rem;
+    color: var(--COLOR-SEVEN);
 }
+
 .band-top-letter{
     background-color: var(--COLOR-ONE);
-    color: var(--COLOR-SEVEN);
+    font-family: var(--FONT-ONE);
+    font-size: 2rem;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: .15rem;
+    line-height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s linear;
+    height: 2rem;
+}
+
+.band-top-space{
+    background-color: var(--COLOR-ONE);
     font-family: var(--FONT-ONE);
     font-size: 2rem;
     padding-left: 4px;
@@ -255,18 +284,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all .5s linear;
+    color: transparent;
+    height: 2rem;
 }
 
-.band-top-space{
-    background-color: var(--COLOR-ONE);
+.band-top-btn:hover .band-top-letter{
+    background-color: var(--COLOR-SEVEN);
+    color: var(--COLOR-ONE);
+    box-shadow: 3px 3px 5px var(--COLOR-ONE);
+}
+.band-top-btn:hover .band-top-space{
+    background-color: var(--COLOR-SEVEN);
     color: transparent;
-    padding-left: 4px;
-    padding-right: 4px;
-    font-size: 2rem;
-    line-height: normal;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    box-shadow: 3px 3px 5px var(--COLOR-ONE);
 }
 
 /* Media Query for low resolution  Tablets, Ipads */
