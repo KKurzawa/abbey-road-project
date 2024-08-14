@@ -80,6 +80,46 @@
     border: var(--BORDER-ONE);
 }
 
+.mobile-band-top-btn{
+    background-color: transparent;
+    position: relative;
+    z-index: 1;
+    margin-bottom: .25rem;
+    display: flex;
+    justify-content: center;
+}
+.mobile-band-top-letter{
+    background-color: var(--COLOR-ONE);
+    font-family: var(--FONT-ONE);
+    font-size: 1.4rem;
+    height: 1.45rem;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 1px;
+    color: var(--COLOR-SEVEN);
+    position: relative;
+}
+
+.mobile-band-top-space{
+    background-color: var(--COLOR-ONE);
+    font-family: var(--FONT-ONE);
+    font-size: 1.4rem;
+    height: 1.45rem;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 1px;
+    color: transparent;
+    position: relative;
+}
+
 /* medium and large */
 .band-member-main{
     position: relative;

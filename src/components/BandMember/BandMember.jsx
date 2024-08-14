@@ -13,7 +13,7 @@ import Steve from '/Steve.jpg'
 const BandMember = () => {
     return (
         <>
-            <main className='mobile-member-main flex flex-col md:hidden'>
+            <main className='mobile-member-main flex flex-col items-center md:hidden'>
                 <article className='mobile-band-member-name flex justify-center gap-[.1rem] pt-5 pb-2'>
                     <h2 className='mobile-band-member-letter'>M</h2>
                     <h2 className='mobile-band-member-letter'>I</h2>
@@ -212,9 +212,21 @@ const BandMember = () => {
                         <FaSpotify className='mobile-member-icon' />
                     </button>
                 </article>
+                <a href='#top' className='mobile-band-top-btn flex justify-center w-fit h-fit gap-[.15rem]'>
+                    <h2 className='mobile-band-top-letter'>T</h2>
+                    <h2 className='mobile-band-top-letter'>O</h2>
+                    <h2 className='mobile-band-top-space'>S</h2>
+                    <h2 className='mobile-band-top-letter'>T</h2>
+                    <h2 className='mobile-band-top-letter'>H</h2>
+                    <h2 className='mobile-band-top-letter'>E</h2>
+                    <h2 className='mobile-band-top-space'>S</h2>
+                    <h2 className='mobile-band-top-letter'>T</h2>
+                    <h2 className='mobile-band-top-letter'>O</h2>
+                    <h2 className='mobile-band-top-letter'>P</h2>
+                </a>
             </main>
             {/* medium and large */}
-            <main className='band-member-main hidden md:flex flex-col items-center pb-12'>
+            <main className='band-member-main hidden md:flex flex-col items-center'>
                 <article className='michael-container grid grid-cols-3 justify-center items-center'>
                     <img src={Michael} alt='Michael King' className='member-pic' />
                     <section className='michael-text flex flex-col gap-4 col-span-2'>
@@ -366,7 +378,7 @@ const BandMember = () => {
                     </section>
                     <img src={Kris} alt='Kris Kurzawa' className='member-pic' />
                 </article>
-                <article className='steve-container grid grid-cols-3 justify-center items-center'>
+                <article className='steve-container grid grid-cols-3 justify-center items-center pb-10'>
                     <img src={Steve} alt='Steve Nolton' className='member-pic' />
                     <section className='steve-text flex flex-col gap-4 col-span-2'>
                         <article className='band-member-name flex gap-1'>

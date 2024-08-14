@@ -101,5 +101,44 @@
         font-size: 1.25rem;
     }
 
+    .show-top-btn{
+        background-color: transparent;
+        position: relative;
+        z-index: 1;
+        margin-bottom: .25rem;
+        display: flex;
+        justify-content: center;
+    }
+    .show-top-letter{
+        background-color: var(--COLOR-ONE);
+        font-family: var(--FONT-ONE);
+        font-size: 1.4rem;
+        height: 1.45rem;
+        width: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;   
+        padding-left: 3px;
+        padding-right: 3px;
+        padding-bottom: 1px;
+        color: var(--COLOR-SEVEN);
+        position: relative;
+    }
+    
+    .show-top-space{
+        background-color: var(--COLOR-ONE);
+        font-family: var(--FONT-ONE);
+        font-size: 1.4rem;
+        height: 1.45rem;
+        width: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;   
+        padding-left: 3px;
+        padding-right: 3px;
+        padding-bottom: 1px;
+        color: transparent;
+        position: relative;
+    }
  
 }

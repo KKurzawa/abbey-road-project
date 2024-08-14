@@ -78,6 +78,18 @@ const Contact = () => {
                     />
                 </article>
                 <button type='submit' className='submit-btn w-44 rounded-xl text-3xl mt-1 mb-10 py-2'>Submit</button>
+                <a href='#top' className='contact-top-btn flex justify-center w-fit h-fit gap-[.15rem]'>
+                    <h2 className='contact-top-letter'>T</h2>
+                    <h2 className='contact-top-letter'>O</h2>
+                    <h2 className='contact-top-space'>S</h2>
+                    <h2 className='contact-top-letter'>T</h2>
+                    <h2 className='contact-top-letter'>H</h2>
+                    <h2 className='contact-top-letter'>E</h2>
+                    <h2 className='contact-top-space'>S</h2>
+                    <h2 className='contact-top-letter'>T</h2>
+                    <h2 className='contact-top-letter'>O</h2>
+                    <h2 className='contact-top-letter'>P</h2>
+                </a>
             </form>
         </main>
     )
