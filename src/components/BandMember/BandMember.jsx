@@ -57,17 +57,20 @@ const BandMember = () => {
                         <FaSpotify className='mobile-member-icon' />
                     </button>
                 </article>
-                <article className='mobile-band-member-name flex justify-center gap-[.1rem] pb-2'>
-                    <h2 className='mobile-band-member-letter'>D</h2>
-                    <h2 className='mobile-band-member-letter'>O</h2>
-                    <h2 className='mobile-band-member-letter'>U</h2>
-                    <h2 className='mobile-band-member-letter'>G</h2>
-                    <h2 className='mobile-band-member-space'>S</h2>
-                    <h2 className='mobile-band-member-letter'>B</h2>
-                    <h2 className='mobile-band-member-letter'>R</h2>
-                    <h2 className='mobile-band-member-letter'>O</h2>
-                    <h2 className='mobile-band-member-letter'>W</h2>
-                    <h2 className='mobile-band-member-letter'>N</h2>
+                <article className='mobile-band-member-name flex flex-col items-center justify-center gap-[.1rem] pb-2'>
+                    <section className='first-name flex flex-row justify-center gap-[.1rem]'>
+                        <h2 className='mobile-band-member-letter'>D</h2>
+                        <h2 className='mobile-band-member-letter'>O</h2>
+                        <h2 className='mobile-band-member-letter'>U</h2>
+                        <h2 className='mobile-band-member-letter'>G</h2>
+                    </section>
+                    <section className='last-name flex flex-row justify-center gap-[.1rem]'>
+                        <h2 className='mobile-band-member-letter'>B</h2>
+                        <h2 className='mobile-band-member-letter'>R</h2>
+                        <h2 className='mobile-band-member-letter'>O</h2>
+                        <h2 className='mobile-band-member-letter'>W</h2>
+                        <h2 className='mobile-band-member-letter'>N</h2>
+                    </section>
                 </article>
                 <article className='mobile-member-container grid grid-cols-2'>
                     <section className='flex justify-center'>
@@ -94,24 +97,27 @@ const BandMember = () => {
                         <FaSpotify className='mobile-member-icon' />
                     </button>
                 </article>
-                <article className='mobile-band-member-name flex justify-center gap-[.1rem] pb-2'>
-                    <h2 className='mobile-band-member-letter'>D</h2>
-                    <h2 className='mobile-band-member-letter'>A</h2>
-                    <h2 className='mobile-band-member-letter'>V</h2>
-                    <h2 className='mobile-band-member-letter'>E</h2>
-                    <h2 className='mobile-band-member-space'>S</h2>
-                    <h2 className='mobile-band-member-letter'>H</h2>
-                    <h2 className='mobile-band-member-letter'>E</h2>
-                    <h2 className='mobile-band-member-letter'>N</h2>
-                    <h2 className='mobile-band-member-letter'>D</h2>
-                    <h2 className='mobile-band-member-letter'>E</h2>
-                    <h2 className='mobile-band-member-letter'>R</h2>
-                    <h2 className='mobile-band-member-letter'>I</h2>
-                    <h2 className='mobile-band-member-letter'>C</h2>
-                    <h2 className='mobile-band-member-letter'>K</h2>
-                    <h2 className='mobile-band-member-letter'>S</h2>
-                    <h2 className='mobile-band-member-letter'>O</h2>
-                    <h2 className='mobile-band-member-letter'>N</h2>
+                <article className='mobile-band-member-name flex flex-col items-center justify-center gap-[.1rem] pb-2'>
+                    <section className='first-name flex flex-row justify-center gap-[.1rem]'>
+                        <h2 className='mobile-band-member-letter'>D</h2>
+                        <h2 className='mobile-band-member-letter'>A</h2>
+                        <h2 className='mobile-band-member-letter'>V</h2>
+                        <h2 className='mobile-band-member-letter'>E</h2>
+                    </section>
+                    <section className='first-name flex flex-row justify-center gap-[.1rem]'>
+                        <h2 className='mobile-band-member-letter'>H</h2>
+                        <h2 className='mobile-band-member-letter'>E</h2>
+                        <h2 className='mobile-band-member-letter'>N</h2>
+                        <h2 className='mobile-band-member-letter'>D</h2>
+                        <h2 className='mobile-band-member-letter'>E</h2>
+                        <h2 className='mobile-band-member-letter'>R</h2>
+                        <h2 className='mobile-band-member-letter'>I</h2>
+                        <h2 className='mobile-band-member-letter'>C</h2>
+                        <h2 className='mobile-band-member-letter'>K</h2>
+                        <h2 className='mobile-band-member-letter'>S</h2>
+                        <h2 className='mobile-band-member-letter'>O</h2>
+                        <h2 className='mobile-band-member-letter'>N</h2>
+                    </section>
                 </article>
                 <article className='mobile-dave-container grid grid-cols-2 justify-center'>
                     <section className='flex flex-col items-center'>
