@@ -18,17 +18,17 @@ const Show = () => {
         <main className='single-show-main w-full h-auto flex flex-col items-center'>
             {showList.map((item) => (
                 <ol key={item.index} className='single-show flex flex-col items-center w-fit'>
-                    <article className='date-time w-fit flex flex-row mb-2 pb-1 gap-2'>
+                    <article className='date-time w-fit flex flex-row m-0 md:mb-2 pb-1 gap-2'>
                         <li className='date w-fit'>{item.date}</li>
                         <li className='time w-fit'>{item.time}</li>
                     </article>
                     <button onClick={() => setTimeout(() =>
                         window.open(item.venueLink, '_blank')
-                        , 500)} className='venue mb-2 px-2 pb-1 pt-[.15rem]'>{item.venue}</button>
+                        , 500)} className='venue m-0 md:mb-2 px-1 md:px-2 pb-1 pt-[.15rem]'>{item.venue}</button>
                     <button onClick={() => setTimeout(() =>
                         window.open(item.cityLink, '_blank')
-                        , 500)} className='city mb-2 px-2 pb-1 pt-[.15rem]'>{item.city}</button>
-                    <li className='tckt-btn mb-1 px-2 pb-1 pt-[.15rem]'>
+                        , 500)} className='city m-0 md:mb-2 px-1 md:px-2 pb-1 pt-[.15rem]'>{item.city}</button>
+                    <li className='tckt-btn mb-1 px-1 md:px-2 pb-1 pt-[.15rem]'>
                         {item.ticketLink === 1 ? (
                             <button onClick={notYetAvailable}>Get Tickets</button>
                         ) :
