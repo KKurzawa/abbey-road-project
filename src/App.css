@@ -6,6 +6,7 @@
   scroll-behavior: smooth;
   width: 100%;
   height: auto;
+  font-weight: bold;
 
   /* global properties */
   background-color: var(--COLOR-FIVE);
