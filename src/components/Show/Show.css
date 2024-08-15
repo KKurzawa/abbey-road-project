@@ -120,6 +120,7 @@
     .city,
     .venue{
         font-size: 1.25rem;
+        line-height: 1.25rem;
     }
 
     .show-top-btn{
