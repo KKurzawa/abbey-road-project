@@ -23,8 +23,8 @@
 .mobile-band-member-space{
     background-color: var(--COLOR-ONE);
     font-family: var(--FONT-ONE);
-    font-size: 1.4rem;
-    height: 1.45rem;
+    font-size: 2rem;
+    height: 2rem;
     width: fit-content;
     display: flex;
     align-items: center;

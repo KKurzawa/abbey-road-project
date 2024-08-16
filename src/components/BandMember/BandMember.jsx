@@ -14,7 +14,7 @@ const BandMember = () => {
     return (
         <>
             <main className='mobile-member-main flex flex-col items-center md:hidden'>
-                <article className='mobile-band-member-name flex flex-col items-center justify-center gap-[.1rem] pt-5 pb-2'>
+                <article className='mobile-band-member-name flex flex-col items-center justify-center gap-1 pt-5 pb-2'>
                     <section className='first-name flex flex-row justify-center gap-[.1rem]'>
                         <h2 className='mobile-band-member-letter'>M</h2>
                         <h2 className='mobile-band-member-letter'>I</h2>
@@ -40,7 +40,7 @@ const BandMember = () => {
                         <p className='mobile-member-bio'>Nunc posuere leo eu dui consequat. Aenean posuere ullamcorper orci, ac consectetur lorem aliquet in. Suspendisse sit amet odio varius, gravida dolor vel, euismod mauris. Donec eu massa feugiat, hendrerit tellus euismod, aliquam libero. Mauris lobortis, urna et suscipit tempus, turpis tellus fermentum justo, a iaculis nisl leo et orci.</p>
                     </section>
                 </article>
-                <article className='mobile-member-icons flex justify-center pt-2 pb-5 gap-1 w-full'>
+                <article className='mobile-member-icons flex justify-center pt-2 pb-4 w-full'>
                     <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
                         <FaFacebookSquare className='mobile-member-icon' />
                     </button>
@@ -57,7 +57,7 @@ const BandMember = () => {
                         <FaSpotify className='mobile-member-icon' />
                     </button>
                 </article>
-                <article className='mobile-band-member-name flex flex-col items-center justify-center gap-[.1rem] pb-2'>
+                <article className='mobile-band-member-name flex flex-col items-center justify-center gap-1 pb-2'>
                     <section className='first-name flex flex-row justify-center gap-[.1rem]'>
                         <h2 className='mobile-band-member-letter'>D</h2>
                         <h2 className='mobile-band-member-letter'>O</h2>
@@ -80,7 +80,7 @@ const BandMember = () => {
                         <img src={Doug} alt='Doug Brown' className='mobile-member-pic' />
                     </section>
                 </article>
-                <article className='mobile-member-icons flex justify-center pt-2 pb-5 gap-[.15rem] w-full'>
+                <article className='mobile-member-icons flex justify-center pt-2 pb-4 w-full'>
                     <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
                         <FaFacebookSquare className='mobile-member-icon' />
                     </button>
@@ -97,14 +97,14 @@ const BandMember = () => {
                         <FaSpotify className='mobile-member-icon' />
                     </button>
                 </article>
-                <article className='mobile-band-member-name flex flex-col items-center justify-center gap-[.1rem] pb-2'>
+                <article className='mobile-band-member-name flex flex-col items-center justify-center gap-1 pb-2'>
                     <section className='first-name flex flex-row justify-center gap-[.1rem]'>
                         <h2 className='mobile-band-member-letter'>D</h2>
                         <h2 className='mobile-band-member-letter'>A</h2>
                         <h2 className='mobile-band-member-letter'>V</h2>
                         <h2 className='mobile-band-member-letter'>E</h2>
                     </section>
-                    <section className='first-name flex flex-row justify-center gap-[.1rem]'>
+                    <section className='last-name flex flex-row justify-center gap-[.1rem]'>
                         <h2 className='mobile-band-member-letter'>H</h2>
                         <h2 className='mobile-band-member-letter'>E</h2>
                         <h2 className='mobile-band-member-letter'>N</h2>
@@ -127,7 +127,7 @@ const BandMember = () => {
                         <p className='mobile-member-bio'>Nunc posuere leo eu dui consequat.Aenean posuere ullamcorper orci, ac consectetur lorem aliquet in. Suspendisse sit amet odio varius, gravida dolor vel, euismod mauris. Donec eu massa feugiat, hendrerit tellus euismod, aliquam libero. Mauris lobortis, urna et suscipit tempus, turpis tellus fermentum justo, a iaculis nisl leo et orci.</p>
                     </section>
                 </article>
-                <article className='mobile-member-icons flex justify-center gap-1 w-full pt-2 pb-5'>
+                <article className='mobile-member-icons flex justify-center w-full pt-2 pb-4'>
                     <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
                         <FaFacebookSquare className='mobile-member-icon' />
                     </button>
@@ -144,19 +144,22 @@ const BandMember = () => {
                         <FaSpotify className='mobile-member-icon' />
                     </button>
                 </article>
-                <article className='mobile-band-member-name flex justify-center gap-[.1rem] pb-2'>
-                    <h2 className='mobile-band-member-letter'>K</h2>
-                    <h2 className='mobile-band-member-letter'>R</h2>
-                    <h2 className='mobile-band-member-letter'>I</h2>
-                    <h2 className='mobile-band-member-letter'>S</h2>
-                    <h2 className='mobile-band-member-space'>S</h2>
-                    <h2 className='mobile-band-member-letter'>K</h2>
-                    <h2 className='mobile-band-member-letter'>U</h2>
-                    <h2 className='mobile-band-member-letter'>R</h2>
-                    <h2 className='mobile-band-member-letter'>Z</h2>
-                    <h2 className='mobile-band-member-letter'>A</h2>
-                    <h2 className='mobile-band-member-letter'>W</h2>
-                    <h2 className='mobile-band-member-letter'>A</h2>
+                <article className='mobile-band-member-name flex flex-col items-center justify-center gap-1 pb-2'>
+                    <section className='first-name flex flex-row justify-center gap-[.1rem]'>
+                        <h2 className='mobile-band-member-letter'>K</h2>
+                        <h2 className='mobile-band-member-letter'>R</h2>
+                        <h2 className='mobile-band-member-letter'>I</h2>
+                        <h2 className='mobile-band-member-letter'>S</h2>
+                    </section>
+                    <section className='last-name flex flex-row justify-center gap-[.1rem]'>
+                        <h2 className='mobile-band-member-letter'>K</h2>
+                        <h2 className='mobile-band-member-letter'>U</h2>
+                        <h2 className='mobile-band-member-letter'>R</h2>
+                        <h2 className='mobile-band-member-letter'>Z</h2>
+                        <h2 className='mobile-band-member-letter'>A</h2>
+                        <h2 className='mobile-band-member-letter'>W</h2>
+                        <h2 className='mobile-band-member-letter'>A</h2>
+                    </section>
                 </article>
                 <article className='mobile-member-container grid grid-cols-2'>
                     <section className='flex justify-center'>
@@ -166,7 +169,7 @@ const BandMember = () => {
                         <img src={Kris} alt='Kris Kurzawa' className='mobile-member-pic' />
                     </section>
                 </article>
-                <article className='mobile-member-icons flex justify-center pt-2 pb-5 gap-1 w-full'>
+                <article className='mobile-member-icons flex justify-center pt-2 pb-4 w-full'>
                     <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
                         <FaFacebookSquare className='mobile-member-icon' />
                     </button>
@@ -183,19 +186,22 @@ const BandMember = () => {
                         <FaSpotify className='mobile-member-icon' />
                     </button>
                 </article>
-                <article className='mobile-band-member-name flex justify-center gap-[.1rem] pb-2'>
-                    <h2 className='mobile-band-member-letter'>S</h2>
-                    <h2 className='mobile-band-member-letter'>T</h2>
-                    <h2 className='mobile-band-member-letter'>E</h2>
-                    <h2 className='mobile-band-member-letter'>V</h2>
-                    <h2 className='mobile-band-member-letter'>E</h2>
-                    <h2 className='mobile-band-member-space'>S</h2>
-                    <h2 className='mobile-band-member-letter'>N</h2>
-                    <h2 className='mobile-band-member-letter'>O</h2>
-                    <h2 className='mobile-band-member-letter'>L</h2>
-                    <h2 className='mobile-band-member-letter'>T</h2>
-                    <h2 className='mobile-band-member-letter'>O</h2>
-                    <h2 className='mobile-band-member-letter'>N</h2>
+                <article className='mobile-band-member-name flex flex-col items-center justify-center gap-1 pb-2'>
+                    <section className='first-name flex flex-row justify-center gap-[.1rem]'>
+                        <h2 className='mobile-band-member-letter'>S</h2>
+                        <h2 className='mobile-band-member-letter'>T</h2>
+                        <h2 className='mobile-band-member-letter'>E</h2>
+                        <h2 className='mobile-band-member-letter'>V</h2>
+                        <h2 className='mobile-band-member-letter'>E</h2>
+                    </section>
+                    <section className='first-name flex flex-row justify-center gap-[.1rem]'>
+                        <h2 className='mobile-band-member-letter'>N</h2>
+                        <h2 className='mobile-band-member-letter'>O</h2>
+                        <h2 className='mobile-band-member-letter'>L</h2>
+                        <h2 className='mobile-band-member-letter'>T</h2>
+                        <h2 className='mobile-band-member-letter'>O</h2>
+                        <h2 className='mobile-band-member-letter'>N</h2>
+                    </section>
                 </article>
                 <article className='mobile-steve-container grid grid-cols-2 justify-center'>
                     <section className='flex flex-col items-center'>
@@ -205,7 +211,7 @@ const BandMember = () => {
                         <p className='mobile-member-bio'>Nunc posuere leo eu dui consequat.Aenean posuere ullamcorper orci, ac consectetur lorem aliquet in. Suspendisse sit amet odio varius, gravida dolor vel, euismod mauris. Donec eu massa feugiat, hendrerit tellus euismod, aliquam libero. Mauris lobortis, urna et suscipit tempus, turpis tellus fermentum justo, a iaculis nisl leo et orci.</p>
                     </section>
                 </article>
-                <article className='mobile-member-icons flex justify-center gap-1 w-full pt-2 pb-5'>
+                <article className='mobile-member-icons flex justify-center w-full pt-2 pb-4'>
                     <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
                         <FaFacebookSquare className='mobile-member-icon' />
                     </button>
