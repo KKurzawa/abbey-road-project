@@ -17,6 +17,7 @@
     background-color: var(--COLOR-SEVEN);
 }
 
+.email-call-container,
 .mailto,
 .phone,
 .copyright,
@@ -28,8 +29,15 @@
     transition: all .5s linear;
 }
 
+.mailto,
+.phone{
+    border-radius: 5px;
+}
 .mailto:hover,
-.phone:hover,
+.phone:hover{
+    background-color: var(--COLOR-SEVEN);
+    color: var(--COLOR-ONE)
+}
 .dev-link:hover{
     color: var(--COLOR-FIVE);
 }
