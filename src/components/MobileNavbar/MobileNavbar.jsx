@@ -8,6 +8,9 @@ import { motion } from 'framer-motion';
 
 const MobileNavbar = () => {
     const [isOpen, setOpen] = useState(false)
+    // const toggleMenu = () => {
+    //     setOpen((prevOpen) => !prevOpen)
+    // }
 
     function navigateToShows() {
         setTimeout(() => {
@@ -43,6 +46,7 @@ const MobileNavbar = () => {
                 className='hamburger' />
             {isOpen &&
                 <motion.nav
+                    // onClick={toggleMenu}
                     transition={{ duration: .2 }}
                     initial={{ top: '-15rem' }}
                     animate={{ top: '3.3rem' }}
