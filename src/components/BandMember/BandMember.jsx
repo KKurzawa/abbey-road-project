@@ -4,11 +4,13 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { TbWorld } from "react-icons/tb";
 import { SiApplemusic } from "react-icons/si";
 import { FaSpotify } from "react-icons/fa";
+import { ImSoundcloud2 } from "react-icons/im";
 import Michael from '/Michael.jpg'
 import Doug from '/Doug3.jpg'
 import Kris from '/Kris.jpg'
 import Dave from '/Dave.jpg'
 import Steve from '/Steve.jpg'
+import memberBios from '../Utils/Bios';
 
 const BandMember = () => {
     return (
@@ -30,31 +32,30 @@ const BandMember = () => {
                         <h2 className='mobile-band-member-letter'>N</h2>
                         <h2 className='mobile-band-member-letter'>G</h2>
                     </section>
-
                 </article>
-                <article className='mobile-michael-container grid grid-cols-2'>
+                <article className='mobile-member-container grid grid-cols-2'>
                     <section className='flex flex-col items-center'>
                         <img src={Michael} alt='Michael King' className='mobile-member-pic' />
                     </section>
                     <section className='flex flex-col items-center'>
-                        <p className='mobile-member-bio'>Nunc posuere leo eu dui consequat. Aenean posuere ullamcorper orci, ac consectetur lorem aliquet in. Suspendisse sit amet odio varius, gravida dolor vel, euismod mauris. Donec eu massa feugiat, hendrerit tellus euismod, aliquam libero. Mauris lobortis, urna et suscipit tempus, turpis tellus fermentum justo, a iaculis nisl leo et orci.</p>
+                        <p className='mobile-member-bio'>{memberBios[0].bio}</p>
                     </section>
                 </article>
                 <article className='mobile-member-icons flex justify-center pt-2 pb-4 w-full'>
-                    <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
+                    <button className='w-fit' onClick={() => setTimeout(() => window.open('https://www.facebook.com/mkingmusic', '_blank'), 500)}>
                         <FaFacebookSquare className='mobile-member-icon' />
                     </button>
-                    <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
-                        <FaInstagramSquare className='mobile-member-icon' />
-                    </button>
-                    <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
+                    <button className='w-fit' onClick={() => setTimeout(() => window.open('https://www.michaelkingmusic.com/', '_blank'), 500)}>
                         <TbWorld className='mobile-member-icon' />
                     </button>
-                    <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
-                        <SiApplemusic className='mobile-member-icon' />
-                    </button>
-                    <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
+                    <button className='w-fit' onClick={() => setTimeout(() => window.open('https://open.spotify.com/playlist/0m3ZDzhNi7HfL0xBprGi96?si=8aac0910c92b4132', '_blank'), 500)}>
                         <FaSpotify className='mobile-member-icon' />
+                    </button>
+                    <button className='w-fit' onClick={() => setTimeout(() => window.open('https://open.spotify.com/playlist/762Bo9EUPUrIG9VgTZnn0Q?si=93ea2ba2c17544c9', '_blank'), 500)}>
+                        <FaSpotify className='mobile-member-icon' />
+                    </button>
+                    <button className='w-fit' onClick={() => setTimeout(() => window.open('https://soundcloud.com/mk123123', '_blank'), 500)}>
+                        <ImSoundcloud2 className='mobile-member-icon' />
                     </button>
                 </article>
                 <article className='mobile-band-member-name flex flex-col items-center justify-center gap-1 pb-2'>
@@ -74,7 +75,7 @@ const BandMember = () => {
                 </article>
                 <article className='mobile-member-container grid grid-cols-2'>
                     <section className='flex justify-center'>
-                        <p className='mobile-member-bio'>Nunc posuere leo eu dui consequat. Aenean posuere ullamcorper orci, ac consectetur lorem aliquet in. Suspendisse sit amet odio varius, gravida dolor vel, euismod mauris. Donec eu massa feugiat, hendrerit tellus euismod, aliquam libero. Mauris lobortis, urna et suscipit tempus, turpis tellus fermentum justo, a iaculis nisl leo et orci.</p>
+                        <p className='mobile-member-bio'>{memberBios[1].bio}</p>
                     </section>
                     <section className='flex justify-center'>
                         <img src={Doug} alt='Doug Brown' className='mobile-member-pic' />
@@ -119,12 +120,12 @@ const BandMember = () => {
                         <h2 className='mobile-band-member-letter'>N</h2>
                     </section>
                 </article>
-                <article className='mobile-dave-container grid grid-cols-2 justify-center'>
+                <article className='mobile-member-container grid grid-cols-2 justify-center'>
                     <section className='flex flex-col items-center'>
                         <img src={Dave} alt='Dave Henderickson' className='mobile-member-pic' />
                     </section>
                     <section className='flex flex-col items-center'>
-                        <p className='mobile-member-bio'>Nunc posuere leo eu dui consequat.Aenean posuere ullamcorper orci, ac consectetur lorem aliquet in. Suspendisse sit amet odio varius, gravida dolor vel, euismod mauris. Donec eu massa feugiat, hendrerit tellus euismod, aliquam libero. Mauris lobortis, urna et suscipit tempus, turpis tellus fermentum justo, a iaculis nisl leo et orci.</p>
+                        <p className='mobile-member-bio'>{memberBios[2].bio}</p>
                     </section>
                 </article>
                 <article className='mobile-member-icons flex justify-center w-full pt-2 pb-4'>
@@ -163,7 +164,7 @@ const BandMember = () => {
                 </article>
                 <article className='mobile-member-container grid grid-cols-2'>
                     <section className='flex justify-center'>
-                        <p className='mobile-member-bio'>Nunc posuere leo eu dui consequat. Aenean posuere ullamcorper orci, ac consectetur lorem aliquet in. Suspendisse sit amet odio varius, gravida dolor vel, euismod mauris. Donec eu massa feugiat, hendrerit tellus euismod, aliquam libero. Mauris lobortis, urna et suscipit tempus, turpis tellus fermentum justo, a iaculis nisl leo et orci.</p>
+                        <p className='mobile-member-bio'>{memberBios[3].bio}</p>
                     </section>
                     <section className='flex justify-center'>
                         <img src={Kris} alt='Kris Kurzawa' className='mobile-member-pic' />
@@ -203,12 +204,12 @@ const BandMember = () => {
                         <h2 className='mobile-band-member-letter'>N</h2>
                     </section>
                 </article>
-                <article className='mobile-steve-container grid grid-cols-2 justify-center'>
+                <article className='mobile-member-container grid grid-cols-2 justify-center'>
                     <section className='flex flex-col items-center'>
                         <img src={Steve} alt='Steve Nolton' className='mobile-member-pic' />
                     </section>
                     <section className='flex flex-col items-center'>
-                        <p className='mobile-member-bio'>Nunc posuere leo eu dui consequat.Aenean posuere ullamcorper orci, ac consectetur lorem aliquet in. Suspendisse sit amet odio varius, gravida dolor vel, euismod mauris. Donec eu massa feugiat, hendrerit tellus euismod, aliquam libero. Mauris lobortis, urna et suscipit tempus, turpis tellus fermentum justo, a iaculis nisl leo et orci.</p>
+                        <p className='mobile-member-bio'>{memberBios[4].bio}</p>
                     </section>
                 </article>
                 <article className='mobile-member-icons flex justify-center w-full pt-2 pb-4'>
@@ -263,22 +264,22 @@ const BandMember = () => {
                             <h2 className='band-member-letter'>N</h2>
                             <h2 className='band-member-letter'>G</h2>
                         </article>
-                        <p className='member-bio'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce blandit non leo a aliquam. Etiam feugiat quam nisl, et tincidunt nunc luctus tempor. Nunc posuere leo eu dui consequat, ut aliquet urna condimentum. Aenean posuere ullamcorper orci, ac consectetur lorem aliquet in. Suspendisse sit amet odio varius, gravida dolor vel, euismod mauris. Donec eu massa feugiat, hendrerit tellus euismod, aliquam libero. Mauris lobortis, urna et suscipit tempus, turpis tellus fermentum justo, a iaculis nisl leo et orci.</p>
+                        <p className='member-bio'>{memberBios[0].bio}</p>
                         <article className='member-icons flex gap-1'>
-                            <button className='member-icon-button' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
+                            <button className='w-fit' onClick={() => setTimeout(() => window.open('https://www.facebook.com/mkingmusic', '_blank'), 500)}>
                                 <FaFacebookSquare className='member-icon' />
                             </button>
-                            <button className='member-icon-button' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
-                                <FaInstagramSquare className='member-icon' />
-                            </button>
-                            <button className='member-icon-button' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
+                            <button className='w-fit' onClick={() => setTimeout(() => window.open('https://www.michaelkingmusic.com/', '_blank'), 500)}>
                                 <TbWorld className='member-icon' />
                             </button>
-                            <button className='member-icon-button' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
-                                <SiApplemusic className='member-icon' />
-                            </button>
-                            <button className='member-icon-button' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
+                            <button className='w-fit' onClick={() => setTimeout(() => window.open('https://open.spotify.com/playlist/0m3ZDzhNi7HfL0xBprGi96?si=8aac0910c92b4132', '_blank'), 500)}>
                                 <FaSpotify className='member-icon' />
+                            </button>
+                            <button className='w-fit' onClick={() => setTimeout(() => window.open('https://open.spotify.com/playlist/762Bo9EUPUrIG9VgTZnn0Q?si=93ea2ba2c17544c9', '_blank'), 500)}>
+                                <FaSpotify className='member-icon' />
+                            </button>
+                            <button className='w-fit' onClick={() => setTimeout(() => window.open('https://soundcloud.com/mk123123', '_blank'), 500)}>
+                                <ImSoundcloud2 className='member-icon' />
                             </button>
                         </article>
                     </section>
@@ -297,7 +298,7 @@ const BandMember = () => {
                             <h2 className='band-member-letter'>W</h2>
                             <h2 className='band-member-letter'>N</h2>
                         </article>
-                        <p className='member-bio'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce blandit non leo a aliquam. Etiam feugiat quam nisl, et tincidunt nunc luctus tempor. Nunc posuere leo eu dui consequat, ut aliquet urna condimentum. Aenean posuere ullamcorper orci, ac consectetur lorem aliquet in. Suspendisse sit amet odio varius, gravida dolor vel, euismod mauris. Donec eu massa feugiat, hendrerit tellus euismod, aliquam libero. Mauris lobortis, urna et suscipit tempus, turpis tellus fermentum justo, a iaculis nisl leo et orci.</p>
+                        <p className='member-bio'>{memberBios[1].bio}</p>
                         <article className='member-icons flex gap-1'>
                             <button className='member-icon-button' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
                                 <FaFacebookSquare className='member-icon' />
@@ -340,7 +341,7 @@ const BandMember = () => {
                             <h2 className='band-member-letter'>O</h2>
                             <h2 className='band-member-letter'>N</h2>
                         </article>
-                        <p className='member-bio'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce blandit non leo a aliquam. Etiam feugiat quam nisl, et tincidunt nunc luctus tempor. Nunc posuere leo eu dui consequat, ut aliquet urna condimentum. Aenean posuere ullamcorper orci, ac consectetur lorem aliquet in. Suspendisse sit amet odio varius, gravida dolor vel, euismod mauris. Donec eu massa feugiat, hendrerit tellus euismod, aliquam libero. Mauris lobortis, urna et suscipit tempus, turpis tellus fermentum justo, a iaculis nisl leo et orci.</p>
+                        <p className='member-bio'>{memberBios[2].bio}</p>
                         <article className='member-icons flex gap-1'>
                             <button className='member-icon-button' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
                                 <FaFacebookSquare className='member-icon' />
@@ -376,7 +377,7 @@ const BandMember = () => {
                             <h2 className='band-member-letter'>W</h2>
                             <h2 className='band-member-letter'>A</h2>
                         </article>
-                        <p className='member-bio'>Kris Kurzawa&apos;s versatility has led him to become one of Detroit area&apos;s most in demand guitarists since the early 2000&apos;s; crossing multiple genres including jazz, fusion, rock, world music and R+B. He released his first album &apos;Sly&apos; in 2016 earning him his fifth Detroit Music Award. He earned his bachelors degree in 2003 and his masters in 2012 with a concentration in jazz studies from Wayne State University. Kris has over 20 years teaching experience and is adjunct faculty in Wayne State Universities jazz studies program.</p>
+                        <p className='member-bio'>{memberBios[3].bio}</p>
                         <article className='member-icons flex gap-1'>
                             <button className='member-icon-button' onClick={() => setTimeout(() => window.open('https://www.facebook.com/KrisKurzawaGuitar/', '_blank'), 500)}>
                                 <FaFacebookSquare className='member-icon' />
@@ -414,7 +415,7 @@ const BandMember = () => {
                             <h2 className='band-member-letter'>O</h2>
                             <h2 className='band-member-letter'>N</h2>
                         </article>
-                        <p className='member-bio'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce blandit non leo a aliquam. Etiam feugiat quam nisl, et tincidunt nunc luctus tempor. Nunc posuere leo eu dui consequat, ut aliquet urna condimentum. Aenean posuere ullamcorper orci, ac consectetur lorem aliquet in. Suspendisse sit amet odio varius, gravida dolor vel, euismod mauris. Donec eu massa feugiat, hendrerit tellus euismod, aliquam libero. Mauris lobortis, urna et suscipit tempus, turpis tellus fermentum justo, a iaculis nisl leo et orci.</p>
+                        <p className='member-bio'>{memberBios[4].bio}</p>
                         <article className='member-icons flex gap-1'>
                             <button className='member-icon-button' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
                                 <FaFacebookSquare className='member-icon' />
