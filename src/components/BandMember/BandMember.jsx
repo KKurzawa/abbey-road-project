@@ -73,11 +73,12 @@ const BandMember = () => {
                         <h2 className='mobile-band-member-letter'>N</h2>
                     </section>
                 </article>
+
                 <article className='mobile-member-container grid grid-cols-2'>
-                    <section className='flex justify-center'>
+                    <section className='flex flex-col items-center'>
                         <p className='mobile-member-bio'>{memberBios[1].bio}</p>
                     </section>
-                    <section className='flex justify-center'>
+                    <section className='flex flex-col items-center'>
                         <img src={Doug} alt='Doug Brown' className='mobile-member-pic' />
                     </section>
                 </article>
@@ -162,7 +163,7 @@ const BandMember = () => {
                         <h2 className='mobile-band-member-letter'>A</h2>
                     </section>
                 </article>
-                <article className='mobile-member-container grid grid-cols-2'>
+                <article className='mobile-member-container grid grid-cols-2 justify-center'>
                     <section className='flex justify-center'>
                         <p className='mobile-member-bio'>{memberBios[3].bio}</p>
                     </section>
