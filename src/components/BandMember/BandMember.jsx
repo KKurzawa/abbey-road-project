@@ -163,11 +163,11 @@ const BandMember = () => {
                         <h2 className='mobile-band-member-letter'>A</h2>
                     </section>
                 </article>
-                <article className='mobile-member-container grid grid-cols-2 justify-center'>
-                    <section className='flex justify-center'>
+                <article className='mobile-member-container grid grid-cols-2'>
+                    <section className='flex flex-col items-center'>
                         <p className='mobile-member-bio'>{memberBios[3].bio}</p>
                     </section>
-                    <section className='flex justify-center'>
+                    <section className='flex flex-col items-center'>
                         <img src={Kris} alt='Kris Kurzawa' className='mobile-member-pic' />
                     </section>
                 </article>
