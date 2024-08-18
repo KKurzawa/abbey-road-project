@@ -5,9 +5,6 @@ import { IoLogoYoutube } from "react-icons/io5";
 
 const Footer = () => {
     const today = new Date();
-    const timout = setTimeout(() => {
-        console.log("Delayed for 1 second.");
-    }, 1000);
 
     return (
         <footer className='footer flex flex-col justify-center items-center'>
