@@ -58,7 +58,7 @@ const MobileNavbar = () => {
                             initial={{ left: '100%', opacity: 0 }}
                             animate={{ left: '0%', opacity: 1 }}
                             exit={{ left: '100%', opacity: 0 }}
-                            transition={{ duration: .05, delay: .3, type: 'spring', bounce: 1 }}
+                            transition={{ duration: .05, delay: .3 }}
                             className='mobile-nav-link w-fit mt-5 px-2 rounded-xl relative'><button className='w-fit' onClick={navigateToShows}>SHOWS</button></motion.li>
                         <motion.li
                             initial={{ left: '100%', opacity: 0 }}
