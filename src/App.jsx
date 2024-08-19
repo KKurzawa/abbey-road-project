@@ -9,14 +9,14 @@ const App = () => {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
-    }, 5000);
+    }, 7000);
   }, []);
 
   if (isLoading) {
     return <Landing />
   }
   return (
-    <Home />
+    <Home className='home' />
   )
 }
 

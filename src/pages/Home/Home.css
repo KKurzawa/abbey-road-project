@@ -1,0 +1,12 @@
+.home{
+    animation: home-fade-in 1.5s linear 0s 1 both;
+  }
+
+@keyframes home-fade-in {
+    0%{
+        opacity: 0;
+    }   
+    100%{
+        opacity: 1;
+    } 
+}

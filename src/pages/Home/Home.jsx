@@ -7,13 +7,13 @@ import Footer from '../../components/Footer/Footer'
 
 const Home = () => {
     return (
-        <>
+        <main className='home'>
             <Header />
             <Shows />
             <Band />
             <Contact />
             <Footer />
-        </>
+        </main>
     )
 }
 
