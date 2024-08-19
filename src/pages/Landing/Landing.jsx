@@ -2,7 +2,7 @@ import './Landing.css'
 
 const Landing = () => {
     return (
-        <main className='flex justify-center items-center w-full h-full mt-24'>
+        <main className='landing-main flex flex-col justify-center items-center gap-10'>
             <article className='logo flex flex-col justify-center items-center gap-1'>
                 <article className='title-container flex flex-row justify-center gap-1'>
                     <h2 className='landing-title'>T</h2>
