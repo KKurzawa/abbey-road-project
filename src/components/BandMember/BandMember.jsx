@@ -136,7 +136,7 @@ const BandMember = () => {
                     <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
                         <FaInstagramSquare className='mobile-member-icon' />
                     </button>
-                    <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
+                    <button className='w-fit' onClick={() => setTimeout(() => window.open('http://davehendricksonmusic.com/', '_blank'), 500)}>
                         <TbWorld className='mobile-member-icon' />
                     </button>
                     <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
@@ -172,19 +172,19 @@ const BandMember = () => {
                     </section>
                 </article>
                 <article className='mobile-member-icons flex justify-center pt-2 pb-4 w-full'>
-                    <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
+                    <button className='w-fit' onClick={() => setTimeout(() => window.open('https://www.facebook.com/KrisKurzawaGuitar/', '_blank'), 500)}>
                         <FaFacebookSquare className='mobile-member-icon' />
                     </button>
-                    <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
+                    <button className='w-fit' onClick={() => setTimeout(() => window.open('https://www.instagram.com/k_kurzawa/', '_blank'), 500)}>
                         <FaInstagramSquare className='mobile-member-icon' />
                     </button>
-                    <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
+                    <button className='w-fit' onClick={() => setTimeout(() => window.open('https://www.kriskurzawaguitar.com/', '_blank'), 500)}>
                         <TbWorld className='mobile-member-icon' />
                     </button>
-                    <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
+                    <button className='w-fit' onClick={() => setTimeout(() => window.open('https://music.apple.com/us/artist/kris-kurzawa/1071714493', '_blank'), 500)}>
                         <SiApplemusic className='mobile-member-icon' />
                     </button>
-                    <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
+                    <button className='w-fit' onClick={() => setTimeout(() => window.open('https://open.spotify.com/artist/6avBe32i2ADGGnJAFnQHYx', '_blank'), 500)}>
                         <FaSpotify className='mobile-member-icon' />
                     </button>
                 </article>
@@ -344,19 +344,10 @@ const BandMember = () => {
                         </article>
                         <p className='member-bio'>{memberBios[2].bio}</p>
                         <article className='member-icons flex gap-1'>
-                            <button className='member-icon-button' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
-                                <FaFacebookSquare className='member-icon' />
-                            </button>
-                            <button className='member-icon-button' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
-                                <FaInstagramSquare className='member-icon' />
-                            </button>
-                            <button className='member-icon-button' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
+                            <button className='member-icon-button' onClick={() => setTimeout(() => window.open('http://davehendricksonmusic.com/', '_blank'), 500)}>
                                 <TbWorld className='member-icon' />
                             </button>
-                            <button className='member-icon-button' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
-                                <SiApplemusic className='member-icon' />
-                            </button>
-                            <button className='member-icon-button' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
+                            <button className='member-icon-button' onClick={() => setTimeout(() => window.open('https://open.spotify.com/artist/3I4q2EF5Q4jXNJzOmIjrZP?si=YIDZDUuvS8aLn1MycMD3Yg&nd=1&dlsi=c12ef38be8194052', '_blank'), 500)}>
                                 <FaSpotify className='member-icon' />
                             </button>
                         </article>

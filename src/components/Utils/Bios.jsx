@@ -9,7 +9,7 @@ const memberBios = [
     },
     {
         name: 'Dave Henderickson',
-        bio: 'Nunc posuere leo eu dui consequat. Aenean posuere ullamcorper orci, ac consectetur lorem aliquet in. Suspendisse sit amet odio varius, gravida dolor vel, euismod mauris. Donec eu massa feugiat, hendrerit tellus euismod, aliquam libero. Mauris lobortis, urna et suscipit tempus, turpis tellus fermentum justo, a iaculis nisl leo et orci.'
+        bio: "Dave is a musician, singer, songwriter and producer. He’s been described as 'a bass player’s bass player'.  Artists hire him consistantly for his professionalism.  From his earliest days picking up a bass in school and playing along with every Top 40 song on the radio through his time at the Berklee College of Music and Oakland University jazz departments, Dave has honed his skills in all styles of music."
     },
     {
         name: 'Kris Kurzawa',
