@@ -83,21 +83,21 @@ const BandMember = () => {
                     </section>
                 </article>
                 <article className='mobile-member-icons flex justify-center pt-2 pb-4 w-full'>
-                    <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
+                    {/* <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
                         <FaFacebookSquare className='mobile-member-icon' />
-                    </button>
-                    <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
+                    </button> */}
+                    {/* <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
                         <FaInstagramSquare className='mobile-member-icon' />
-                    </button>
-                    <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
+                    </button> */}
+                    <button className='w-fit' onClick={() => setTimeout(() => window.open('https://douglasbrownmusic.com/', '_blank'), 500)}>
                         <TbWorld className='mobile-member-icon' />
                     </button>
-                    <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
+                    {/* <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
                         <SiApplemusic className='mobile-member-icon' />
-                    </button>
-                    <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
+                    </button> */}
+                    {/* <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
                         <FaSpotify className='mobile-member-icon' />
-                    </button>
+                    </button> */}
                 </article>
                 <article className='mobile-band-member-name flex flex-col items-center justify-center gap-1 pb-2'>
                     <section className='first-name flex flex-row justify-center gap-[.1rem]'>
@@ -292,21 +292,21 @@ const BandMember = () => {
                         </article>
                         <p className='member-bio'>{memberBios[1].bio}</p>
                         <article className='member-icons flex gap-1'>
-                            <button className='member-icon-button' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
+                            {/* <button className='member-icon-button' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
                                 <FaFacebookSquare className='member-icon' />
-                            </button>
-                            <button className='member-icon-button' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
+                            </button> */}
+                            {/* <button className='member-icon-button' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
                                 <FaInstagramSquare className='member-icon' />
-                            </button>
-                            <button className='member-icon-button' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
+                            </button> */}
+                            <button className='member-icon-button' onClick={() => setTimeout(() => window.open('https://douglasbrownmusic.com/', '_blank'), 500)}>
                                 <TbWorld className='member-icon' />
                             </button>
-                            <button className='member-icon-button' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
+                            {/* <button className='member-icon-button' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
                                 <SiApplemusic className='member-icon' />
-                            </button>
-                            <button className='member-icon-button' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
+                            </button> */}
+                            {/* <button className='member-icon-button' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
                                 <FaSpotify className='member-icon' />
-                            </button>
+                            </button> */}
                         </article>
                     </section>
                     <img src={Doug} alt='Doug Brown' className='member-pic' />
