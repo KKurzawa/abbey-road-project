@@ -130,19 +130,10 @@ const BandMember = () => {
                     </section>
                 </article>
                 <article className='mobile-member-icons flex justify-center w-full pt-2 pb-4'>
-                    <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
-                        <FaFacebookSquare className='mobile-member-icon' />
-                    </button>
-                    <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
-                        <FaInstagramSquare className='mobile-member-icon' />
-                    </button>
                     <button className='w-fit' onClick={() => setTimeout(() => window.open('http://davehendricksonmusic.com/', '_blank'), 500)}>
                         <TbWorld className='mobile-member-icon' />
                     </button>
-                    <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
-                        <SiApplemusic className='mobile-member-icon' />
-                    </button>
-                    <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
+                    <button className='w-fit' onClick={() => setTimeout(() => window.open('https://open.spotify.com/artist/3I4q2EF5Q4jXNJzOmIjrZP?si=YIDZDUuvS8aLn1MycMD3Yg&nd=1&dlsi=c12ef38be8194052'), 500)}>
                         <FaSpotify className='mobile-member-icon' />
                     </button>
                 </article>
