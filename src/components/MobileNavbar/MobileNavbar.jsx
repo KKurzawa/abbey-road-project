@@ -47,9 +47,9 @@ const MobileNavbar = () => {
             {isOpen &&
                 <motion.nav
                     // onClick={toggleMenu}
-                    transition={{ duration: .2 }}
+                    transition={{ duration: .2, type: 'spring', stiffness: 50 }}
                     initial={{ top: '-15rem' }}
-                    animate={{ top: '3.3rem' }}
+                    animate={{ top: '2.5rem' }}
                     exit={{ top: '-15rem' }}
                     className='mobile-nav-dropdown absolute'
                     id='dropdown'>
@@ -58,8 +58,8 @@ const MobileNavbar = () => {
                             initial={{ left: '100%', opacity: 0 }}
                             animate={{ left: '0%', opacity: 1 }}
                             exit={{ left: '100%', opacity: 0 }}
-                            transition={{ duration: .05, delay: .3, }}
-                            className='mobile-nav-link w-fit px-2 rounded-xl relative'><button className='w-fit' onClick={navigateToShows}>SHOWS</button></motion.li>
+                            transition={{ duration: .05, delay: .3, type: 'spring', bounce: 1 }}
+                            className='mobile-nav-link w-fit mt-5 px-2 rounded-xl relative'><button className='w-fit' onClick={navigateToShows}>SHOWS</button></motion.li>
                         <motion.li
                             initial={{ left: '100%', opacity: 0 }}
                             animate={{ left: '0%', opacity: 1 }}
