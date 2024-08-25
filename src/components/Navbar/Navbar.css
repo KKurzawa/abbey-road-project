@@ -44,3 +44,14 @@
         padding-bottom: 3px;
     }
 }
+
+@media (min-width: 771px) and (max-width: 1000px){
+    .nav-link-letter{
+        font-size: 2.5rem;
+        height: 2.6rem;
+        width: 2.25rem;
+        padding-left: 2px;
+        padding-right: 2px;
+        padding-bottom: 3px;
+    }
+}

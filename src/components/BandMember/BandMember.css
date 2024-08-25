@@ -42,7 +42,7 @@
 
 .mobile-member-pic{
     justify-self: center;
-    width:85%;
+    width:97%;
     height: auto;
     border: var(--BORDER-FOUR);
     border-radius: 5%;
@@ -52,14 +52,14 @@
 
 .mobile-member-bio{
     position: relative;
-    width: 90%;
+    width: 97%;
     height: 100%;
-    padding: .75rem;
+    padding: .5rem;
     line-height: normal;
     border-radius: 10px;
     border: var(--BORDER-ONE);
     font-family: var(--FONT-ONE);
-    font-size: .55rem;  
+    font-size: .67rem;  
     background-color: var(--COLOR-ONE);
     color: var(--COLOR-SEVEN);
 }
@@ -180,8 +180,8 @@
 .steve-text{
     position: relative;
     justify-self: center;
-    margin-left: 5rem;
-    margin-right: 7rem;
+    margin-left: 2rem;
+    margin-right: 6rem;
     background-color: transparent;
 }
 
@@ -189,8 +189,8 @@
 .kris-text{
     position: relative;
     justify-self: center;
-    margin-left: 7rem;
-    margin-right: 5rem; 
+    margin-left: 6rem;
+    margin-right: 2rem; 
     background-color: transparent;
 }
 
@@ -328,5 +328,31 @@
     .member-icon{
         width: 3rem;
         padding: 5px;
+    }
+}
+
+@media (min-width: 771px) and (max-width: 1025px){
+    .band-member-letter,
+    .band-member-space{
+        height: 1.75rem;
+        padding-bottom: 3px;
+        font-size: 1.75rem;
+    }
+
+    .member-bio{
+        font-size: 1rem;
+        padding: .5rem;
+    }
+
+    .michael-text,
+    .dave-text,
+    .steve-text{
+        margin-right: 5rem;
+    }
+
+    .doug-text,
+    .kris-text{
+        margin-left: 5rem;
+        /* margin-right: .05rem; */
     }
 }
