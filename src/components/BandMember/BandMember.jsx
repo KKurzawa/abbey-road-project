@@ -5,6 +5,7 @@ import { TbWorld } from "react-icons/tb";
 import { SiApplemusic } from "react-icons/si";
 import { FaSpotify } from "react-icons/fa";
 import { ImSoundcloud2 } from "react-icons/im";
+import { IoLogoYoutube } from "react-icons/io5";
 import Michael from '/Michael.jpg'
 import Doug from '/Doug3.jpg'
 import Kris from '/Kris.jpg'
@@ -169,6 +170,9 @@ const BandMember = () => {
                     <button className='w-fit' onClick={() => setTimeout(() => window.open('https://www.instagram.com/k_kurzawa/', '_blank'), 500)}>
                         <FaInstagramSquare className='mobile-member-icon' />
                     </button>
+                    <button className='w-fit' onClick={() => setTimeout(() => window.open('https://www.youtube.com/@gitterk', '_blank'), 500)}>
+                        <IoLogoYoutube className='mobile-member-icon' />
+                    </button>
                     <button className='w-fit' onClick={() => setTimeout(() => window.open('https://www.kriskurzawaguitar.com/', '_blank'), 500)}>
                         <TbWorld className='mobile-member-icon' />
                     </button>
@@ -205,20 +209,14 @@ const BandMember = () => {
                     </section>
                 </article>
                 <article className='mobile-member-icons flex justify-center w-full pt-2 pb-4'>
-                    <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
+                    <button className='w-fit' onClick={() => setTimeout(() => window.open('https://www.facebook.com/profile.php?id=100085996338310', '_blank'), 500)}>
                         <FaFacebookSquare className='mobile-member-icon' />
                     </button>
-                    <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
+                    <button className='w-fit' onClick={() => setTimeout(() => window.open('https://www.instagram.com/stevieswondersmusic/', '_blank'), 500)}>
                         <FaInstagramSquare className='mobile-member-icon' />
                     </button>
-                    <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
-                        <TbWorld className='mobile-member-icon' />
-                    </button>
-                    <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
-                        <SiApplemusic className='mobile-member-icon' />
-                    </button>
-                    <button className='w-fit' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
-                        <FaSpotify className='mobile-member-icon' />
+                    <button className='w-fit' onClick={() => setTimeout(() => window.open('https://www.youtube.com/@stevieswonderslive', '_blank'), 500)}>
+                        <IoLogoYoutube className='mobile-member-icon' />
                     </button>
                 </article>
                 <button onClick={() => setTimeout(() => {
@@ -368,6 +366,9 @@ const BandMember = () => {
                             <button className='member-icon-button' onClick={() => setTimeout(() => window.open('https://www.instagram.com/k_kurzawa/', '_blank'), 500)}>
                                 <FaInstagramSquare className='member-icon' />
                             </button>
+                            <button className='w-fit' onClick={() => setTimeout(() => window.open('https://www.youtube.com/@gitterk', '_blank'), 500)}>
+                                <IoLogoYoutube className='member-icon' />
+                            </button>
                             <button className='member-icon-button' onClick={() => setTimeout(() => window.open('https://www.kriskurzawaguitar.com', '_blank'), 500)}>
                                 <TbWorld className='member-icon' />
                             </button>
@@ -400,20 +401,14 @@ const BandMember = () => {
                         </article>
                         <p className='member-bio'>{memberBios[4].bio}</p>
                         <article className='member-icons flex gap-1'>
-                            <button className='member-icon-button' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
+                            <button className='member-icon-button' onClick={() => setTimeout(() => window.open('https://www.facebook.com/profile.php?id=100085996338310', '_blank'), 500)}>
                                 <FaFacebookSquare className='member-icon' />
                             </button>
-                            <button className='member-icon-button' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
+                            <button className='member-icon-button' onClick={() => setTimeout(() => window.open('https://www.instagram.com/stevieswondersmusic/', '_blank'), 500)}>
                                 <FaInstagramSquare className='member-icon' />
                             </button>
-                            <button className='member-icon-button' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
-                                <TbWorld className='member-icon' />
-                            </button>
-                            <button className='member-icon-button' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
-                                <SiApplemusic className='member-icon' />
-                            </button>
-                            <button className='member-icon-button' onClick={() => setTimeout(() => window.open('http://google.com', '_blank'), 500)}>
-                                <FaSpotify className='member-icon' />
+                            <button className='member-icon-button' onClick={() => setTimeout(() => window.open('https://www.youtube.com/@stevieswonderslive', '_blank'), 500)}>
+                                <IoLogoYoutube className='member-icon' />
                             </button>
                         </article>
                     </section>

@@ -1,7 +1,7 @@
 import './Footer.css'
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
-import { IoLogoYoutube } from "react-icons/io5";
+// import { IoLogoYoutube } from "react-icons/io5";
 
 const Footer = () => {
     const today = new Date();
@@ -11,7 +11,6 @@ const Footer = () => {
             <ul className='footer-icons flex flex-row text-6xl gap-10 mt-5 mb-0'>
                 <button onClick={() => setTimeout(() => window.open('https://www.facebook.com/profile.php?id=61563049205575', '_blank'), 500)}><FaFacebookSquare className='footer-icon' /></button>
                 <button onClick={() => setTimeout(() => window.open('https://www.instagram.com/k_kurzawa/', '_blank'), 500)}><FaInstagramSquare className='footer-icon' /></button>
-                <button onClick={() => setTimeout(() => window.open('https://www.youtube.com/channel/UCosE-h5XuXSkR4dG_hBaCUg', '_blank'), 500)}><IoLogoYoutube className='footer-icon' /></button>
             </ul>
             <article className='footer-text-container flex flex-col items-center w-fit mb-5'>
                 <a href='mailto:kurzawa1@yahoo.com' className='mailto w-fit flex justify-center items-center px-1 mb-1 text-lg md:text-3xl'>Email Us</a>

@@ -3,7 +3,7 @@ import { Fade as Hamburger } from 'hamburger-react'
 import { useState } from 'react'
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
-import { IoLogoYoutube } from "react-icons/io5";
+// import { IoLogoYoutube } from "react-icons/io5";
 import { motion } from 'framer-motion';
 
 const MobileNavbar = () => {
@@ -78,7 +78,6 @@ const MobileNavbar = () => {
                         className='nav-icons flex gap-4 relative pl-2 pb-6'>
                         <button className='nav-icon-btn' onClick={() => setTimeout(() => window.open('https://www.facebook.com/profile.php?id=61563049205575', '_blank'), 500)}><FaFacebookSquare className='mobile-nav-icon' /></button>
                         <button className='nav-icon-btn' onClick={() => setTimeout(() => window.open('https://www.instagram.com/k_kurzawa/', '_blank'), 500)}><FaInstagramSquare className='mobile-nav-icon' /></button>
-                        <button className='nav-icon-btn' onClick={() => setTimeout(() => window.open('https://www.youtube.com/channel/UCosE-h5XuXSkR4dG_hBaCUg', '_blank'), 500)}><IoLogoYoutube className='mobile-nav-icon' /></button>
                     </motion.ul>
                 </motion.nav>
             }

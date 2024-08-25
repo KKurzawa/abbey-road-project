@@ -5,7 +5,7 @@ const memberBios = [
     },
     {
         name: 'Doug Brown',
-        bio: "Douglas Brown is a multi-talented eclectic artist. His roots are in Blues, R&B, Jazz, Rock, and Folk. Douglas has played with acts local, national, and international. He has played with artists as varied as Chuck Berry, North Star (a band consisting of members of Smokey Robinson's backup band), The Four Tops, Martha Reeves, Tommy Bolin, Norma Bell, Spyder Turner, The Garfield Blues Band, Koko Taylor, Mighty Joe Young, Dennis Coffey, jazz great Cameron Brown, free jazz artist Faruk Z Bey, jazz master Billy Heart."
+        bio: "Douglas Brown is a multi-talented eclectic artist. His roots are in Blues, R&B, Jazz, Rock, and Folk. Douglas has played with acts local, national, and international. He has played with artists as varied as Chuck Berry, North Star (a band consisting of members of Smokey Robinson's backup band), The Four Tops, Martha Reeves, Tommy Bolin, Norma Bell, Spyder Turner, The Garfield Blues Band, Koko Taylor, Mighty Joe Young, Dennis Coffey, jazz great Cameron Brown, free jazz artist Faruk Z Bey, jazz master Billy Hart."
     },
     {
         name: 'Dave Henderickson',
