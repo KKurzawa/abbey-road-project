@@ -17,7 +17,7 @@ const memberBios = [
     },
     {
         name: 'Steve Nolton',
-        bio: 'Nunc posuere leo eu dui consequat. Aenean posuere ullamcorper orci, ac consectetur lorem aliquet in. Suspendisse sit amet odio varius, gravida dolor vel, euismod mauris. Donec eu massa feugiat, hendrerit tellus euismod, aliquam libero. Mauris lobortis, urna et suscipit tempus, turpis tellus fermentum justo, a iaculis nisl leo et orci.'
+        bio: "Steve Nolton is a drummer/percussionist, producer and composer who has been performing in the Detroit music scene spanning several decades. He is the founding member of the Abbey Road Project, the Mask project and SWL Stevie’s Wonders LiVE! Steve is known for his solid groove, and his ability to play many different styles of music. He is the backbone of The Simone Vitale Band - one of Detroit’s Premier High Society Party Bands."
     },
 ]
 
