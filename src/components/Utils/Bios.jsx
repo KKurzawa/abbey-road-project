@@ -1,7 +1,7 @@
 const memberBios = [
     {
         name: 'Michael King',
-        bio: "Michael King is a Detroit based multi instrumentalist Songwriter, Producer and Composer. His music blends Contemporary, Progressive, Folk and World Beat elements with detailed production, emotive instrumental landscapes and literary lyrics in to a sound that has wide appeal.  Michael was a Founding member of the Atlantic Recording Group Rebel Heels and has released 4 solo albums: Glory, Motion, A Thousand Faces and Nevada.  He is now the Music Director at Kensington Church."
+        bio: "Michael King is a Detroit based multi-instrumentalist Songwriter, Producer and Composer. His music blends Contemporary, Progressive, Folk and World Beat elements with detailed production, emotive instrumental landscapes and literary lyrics in to a sound that has wide appeal.  Michael was a Founding member of the Atlantic Recording Group Rebel Heels and has released 4 solo albums: Glory, Motion, A Thousand Faces and Nevada.  He is now the Music Director at Kensington Church."
     },
     {
         name: 'Doug Brown',
