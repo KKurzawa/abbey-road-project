@@ -3,14 +3,10 @@ import { Fade as Hamburger } from 'hamburger-react'
 import { useState } from 'react'
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
-// import { IoLogoYoutube } from "react-icons/io5";
 import { motion } from 'framer-motion';
 
 const MobileNavbar = () => {
     const [isOpen, setOpen] = useState(false)
-    // const toggleMenu = () => {
-    //     setOpen((prevOpen) => !prevOpen)
-    // }
 
     function navigateToShows() {
         setTimeout(() => {

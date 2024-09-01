@@ -52,7 +52,6 @@
 
 .hamburger{
     position: absolute;
-    /* right:5px */
 }
 
 @media (max-width: 480px) {
@@ -64,7 +63,6 @@
     }
 }
 
-/* Media Query for low resolution  Tablets, Ipads */
 @media (min-width: 481px) and (max-width: 770px) {
     .title,
     .space{
@@ -80,6 +78,5 @@
         font-size: 3.5rem;
         height: 4rem; 
         width: 3.25rem;
-        /* padding-top: 1rem; */
 }
 }
