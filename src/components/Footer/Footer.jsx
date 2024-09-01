@@ -13,8 +13,8 @@ const Footer = () => {
                 <button onClick={() => setTimeout(() => window.open('https://www.instagram.com/k_kurzawa/', '_blank'), 500)}><FaInstagramSquare className='footer-icon' /></button>
             </ul>
             <article className='footer-text-container flex flex-col items-center w-fit mb-5'>
-                <a href='mailto:kurzawa1@yahoo.com' className='mailto w-fit flex justify-center items-center px-1 mb-1 text-lg md:text-3xl'>Email Us</a>
-                <a href='tel:12485682806' className='phone w-fit flex justify-center items-center px-1 mb-3 text-lg md:text-3xl'>Call Us</a>
+                <a href='mailto:steve.nolton@gmail.com' className='mailto w-fit flex justify-center items-center px-1 mb-1 text-lg md:text-3xl'>Email Us</a>
+                <a href='tel:15865563325' className='phone w-fit flex justify-center items-center px-1 mb-3 text-lg md:text-3xl'>Call Us</a>
                 <button onClick={() => setTimeout(() => window.open('https://www.kriskurzawadev.com/', '_blank'), 500)} className='dev-link py-[.1rem] text-xs md:text-xl'>Site Designed and Built by Kris Kurzawa</button>
                 <p className='copyright flex justify-center py-[.1rem] text-xs md:text-xl'>Copyright &copy; {today.getFullYear()} The Abbey Road Project - All Rights Reserved</p>
             </article>
