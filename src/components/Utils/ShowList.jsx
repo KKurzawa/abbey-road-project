@@ -1,6 +1,6 @@
 const showList = [
     {
-        date: 'January 3 2025',
+        date: 'April 5 2025',
         time: '8pm',
         venue: 'The Cadieux Cafe',
         venueLink: 'https://www.cadieuxcafe.com/',
